@@ -1,7 +1,7 @@
 ﻿# LifeLy-CODEX
  #### To start with the development
  1. Fork this repositry.
- 2. Clone it using "git clone https://github.com/{your-username}/LifeLy-CODEX.git"
+ 2. Clone it using "git clone https://github.com/{your-username}/Lifely.git"
  3. Add you .env file in /server folder.
  4. .env file looks like this:
       MONGO_URL="{your mongo connection url}"
