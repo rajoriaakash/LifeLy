@@ -12,8 +12,9 @@
  7. Run the following commands in root directory:
       - npm run install-deps
       - npm start
- 8. This will start the server and client.
- 9. Continue Development.
+ 8. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
+ 9. This will start the server and client.
+ 10. Continue Development.
 
 
 #### To continue with development

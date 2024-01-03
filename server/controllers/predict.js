@@ -67,7 +67,7 @@ export const get_percentage = async (req, res) => {
       console.log(autismReqBody)
 
     //   console.log(autismReqBody);
-      const autismApiUrl = `http://127.0.0.1:8000/predict/autism`;
+      const autismApiUrl = `https://lifely-p9p9.onrender.com/predict/autism`;
       const autismRequest = axios.post(autismApiUrl, autismReqBody);
   
       //for adhd
