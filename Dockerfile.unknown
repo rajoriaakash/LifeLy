@@ -1,0 +1,13 @@
+FROM python
+
+WORKDIR /code
+
+COPY ./requirements.txt /code/requirements.txt
+
+RUN pip3 install -r /code/requirements.txt
+
+COPY ./prediction_backend /code/prediction_backend
+
+WORKDIR /code/prediction_backend/autism_model
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]

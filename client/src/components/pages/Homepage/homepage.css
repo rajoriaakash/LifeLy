@@ -1,0 +1,164 @@
+.head1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e2efcc;
+}
+.head1 img {
+  height: 100%;
+  width: 100%;
+}
+.quote-outer1 {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.quote1 {
+  background-color: rgba(255, 255, 255, 0.811);
+  align-items: center;
+  padding: 15% 5%;
+  border-radius: 17%;
+  text-align: center;
+  width: 100%;
+}
+.get-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-head1 {
+  font-family: "Alegreya";
+  font-size: 3.5rem;
+}
+.quote-p1 {
+  padding-top: 8%;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-button {
+  padding-top: 8%;
+  padding-left: 2%;
+  width: 15%;
+  height: 15%;
+  display: flex;
+  position: relative;
+  justify-content: end;
+  bottom: 0px;
+}
+
+.problem-div {
+  padding: 3% 2%;
+}
+.problem-div-que {
+  font-size: 3rem;
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 900;
+}
+.problem {
+  font-family: "Alegreya";
+}
+.block1 {
+  background-color: #fffbac;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin: 3% 5%;
+  align-items: center;
+  border-radius: 20%;
+  padding: 1% 0%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.block1-head {
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+.block2 {
+  background-color: #fedeff;
+  width: 40%;
+  margin: 3% 5%;
+  border-radius: 20%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1% 0%;
+  font-size: 1.2rem;
+}
+.block3 {
+  background-color: #ffd495;
+  width: 90%;
+  margin: 3% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1% 0%;
+}
+.block2 span {
+  font-size: 3rem;
+  margin: 0% 3%;
+  font-weight: bolder;
+}
+.pie {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(pink 70deg, lightblue 0 235deg, orange 0);
+}
+
+/* autism 10 27.4
+adhd 9.4   25.8
+dyslexia 17 46.7
+36.4
+ */
+
+.block2-upper {
+  text-align: center;
+}
+.block2-lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block2-lower img {
+  height: 200px;
+}
+.block3-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block3-content img {
+  height: 250px;
+}
+.block3-content-written {
+  padding: 0% 2%;
+  width: 40%;
+  font-size: 1.5rem;
+}
+.platform-content {
+  margin: 4% 0%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.platform-points {
+  background-color: #d9d9d993;
+  padding: 2% 5%;
+  border-radius: 5%;
+}
+
+.platform-points li{
+  font-size: 1.3rem;
+  margin: 4% 0%;
+}

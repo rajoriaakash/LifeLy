@@ -1,0 +1,160 @@
+.review-box{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftrev{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid red; */
+    background-color: #D7E9B9;
+}
+.leftrev img{
+    width: 100%;
+    height: 100%;
+}
+.review-container{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.revh1{
+    font-size: 40px;
+    height: 13%;
+    width: 80%;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 
+    "Alegreya";
+    /* border: 2px solid red; */
+}
+.revh2{
+    height: 13%;
+    font-size: larger;
+    font-family: 
+    "Montserrat";
+    width: 60%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.revsec{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid red; */
+    
+}
+.revsec input{
+    /* margin: 4% 0%; */
+    outline: none;
+    /* border: none; */
+}
+.revname{
+    /* border-bottom: 4px solid black;  */
+    height: 10%;
+    width: 70%;
+    padding-left: 1.5vw;
+    border: 2px solid 
+    #71A054;
+    background-color: inherit;
+    outline: none;
+    border-radius: 20px;
+    font-size: large;
+    outline: none;
+    margin-top: 7%;
+}
+.revmail{
+    height: 10%;
+    width: 70%;
+    font-size: large;
+    padding-left: 1.5vw;
+    border: 2px solid 
+    #71A054;
+    background-color: inherit;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+
+.revsearch{
+    font-size: large;
+    height: 25%;
+    width: 90%;
+    padding-left: 1.5vw;
+    padding-top: 1vh;
+    border: 2px solid 
+    #71A054;
+    background-color: inherit;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+.revsec label{
+    margin-right: 1.5vw;
+}
+.revsec fieldset{
+    margin-top: 7%;
+}
+.star{
+    /* background-color: inherit; */
+    font-size: large;
+    outline: none;
+    border-radius: 20px;
+}
+.login-btn{
+    /* margin-top: 3%; */
+    font-size: 2rem;
+    padding: 1% 0%;
+    width: 40%;
+    height: 60%;
+    border-radius: 20px;
+    background-color: #FFD495;
+    border:none;
+
+    
+}
+#rating-4{
+    height: 5vh;
+    width: 2vw;
+    margin-top:7vh;
+}
+#rating-3{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 7vh;
+}
+#rating-2{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 7vh;
+}
+#rating-1{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 7vh;
+}
+#rating-5{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 7vh;
+}
+#rating-0{
+    height: 5vh;
+    width: 2vw;
+    margin-top: 7vh;
+}

@@ -1,0 +1,40 @@
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2efcc;
+}
+.head img {
+  height: 100%;
+  width: 100%;
+}
+.quote-outer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+.quote {
+  background-color: rgba(255, 255, 255, 0.811);
+  padding: 3%;
+  border-radius: 17%;
+  text-align: center;
+  width: 70%;
+}
+.quote-head {
+  font-family: "Alegreya";
+  font-size: 3rem;
+}
+.quote-p {
+  font-family: "Alegreya";
+  font-size: 2rem;
+}
+
+.card-outer-div {
+  width: 40%;
+  margin: 3% 5%;
+  text-decoration: none !important;
+  text-decoration-line: none;
+  border-radius: 20%;
+}

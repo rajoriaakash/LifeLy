@@ -1,0 +1,45 @@
+.navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-size: 1.4rem;
+}
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+}
+.header-bar {
+  font-family: "Montserrat";
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.logo {
+  margin-left: 1%;
+  font-size: 3rem;
+  color: #939b62;
+  font-weight: bolder;
+}
+.buttons {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+.buttons button {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #e2eece;
+  opacity: 0.5;
+  border-radius: 15%;
+  padding: 5px 15px;
+  border-width: medium;
+  border-color: #a8af81;
+}

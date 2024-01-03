@@ -1,0 +1,1001 @@
+Name,Phone Number,Speciality,State,Rating,Discount,Fee,Discounted Fee
+Riaan Grover,2450083306,ocd,Nagaland,3.91,9,1780.0,1619.8
+Pihu Chandra,01399585417,odd,Jharkhand,4.61,6,2100.0,1974.0
+Lagan Sibal,+910308428680,odd,Telangana,4.88,11,2100.0,1869.0
+Aayush Bassi,7531031060,adhd,Goa,4.79,11,2120.0,1886.8
+Navya Karpe,0188118110,anxiety,Andhra Pradesh,2.42,13,1330.0,1157.1
+Ela Doshi,1563933545,odd,Maharashtra,2.37,13,1300.0,1131.0
+Divij Dar,07452595459,autism,Arunachal Pradesh,2.06,14,1420.0,1221.2
+Faiyaz Gupta,1533851557,dyslexia,Haryana,4.65,6,1860.0,1748.4
+Aarav Ganesh,8425477844,ocd,Tamil Nadu,3.66,10,1780.0,1602.0
+Bhavin Din,8562755304,ocd,Meghalaya,2.38,12,1540.0,1355.2
+Saira Kari,08432325389,ocd,Gujarat,3.23,9,1680.0,1528.8
+Lakshay Sengupta,+916773751620,autism,Assam,4.67,8,2070.0,1904.4
+Advik Krishna,+919009565177,dyslexia,Jharkhand,4.08,6,1860.0,1748.4
+Mishti Bhatt,1047538218,dyslexia,Telangana,2.52,13,1370.0,1191.9
+Ivan Jayaraman,6970993073,anxiety,Tripura,4.34,10,1840.0,1656.0
+Armaan Gupta,00961953766,anxiety,Gujarat,3.32,10,1540.0,1386.0
+Rati Raman,+917046649300,dyslexia,Mizoram,3.28,15,1650.0,1402.5
+Ryan Agrawal,+916944803324,odd,Kerala,4.44,8,2030.0,1867.6
+Divit Malhotra,+918059678156,odd,Arunachal Pradesh,3.69,15,1660.0,1411.0
+Aayush Ghose,00696535214,dyslexia,Mizoram,3.64,10,1780.0,1602.0
+Kartik Vaidya,04008152192,anxiety,Delhi,3.06,6,1600.0,1504.0
+Zain Sule,+914214354523,ocd,West Bengal,4.35,11,1950.0,1735.5
+Aarav Zachariah,3568410820,adhd,Manipur,4.33,13,1970.0,1713.9
+Kiaan Sinha,+913146663179,autism,Chandigarh,4.32,9,1980.0,1801.8
+Nehmat Basu,+911342453333,ocd,Telangana,4.26,5,2000.0,1900.0
+Mamooty Deshpande,9713851574,dyslexia,Andhra Pradesh,4.28,10,1900.0,1710.0
+Lavanya Thaker,3338928986,adhd,Uttarakhand,3.76,8,1780.0,1637.6
+Vanya Ahluwalia,+917644207743,ocd,Delhi,2.12,11,1460.0,1299.4
+Shamik Virk,2235133180,autism,Chandigarh,3.51,8,1770.0,1628.4
+Hrishita Rege,1899931347,autism,Andaman and Nicobar Islands,2.45,10,1490.0,1341.0
+Kartik Lad,08295674053,adhd,Lakshadweep,2.71,13,1490.0,1296.3
+Anahita Dar,04263778564,anxiety,Kerala,4.63,12,1960.0,1724.8
+Armaan Comar,+913216907902,adhd,Andaman and Nicobar Islands,2.55,10,1520.0,1368.0
+Elakshi Dutta,9191961524,autism,Nagaland,3.86,7,1680.0,1562.4
+Shlok Mammen,04256844712,autism,West Bengal,4.06,8,1930.0,1775.6
+Kavya Hans,+919556597125,adhd,Goa,2.78,9,1400.0,1274.0
+Ryan Kibe,+915855938726,ocd,Assam,3.92,15,1870.0,1589.5
+Anay Bakshi,08235668997,adhd,Goa,2.2,6,1400.0,1316.0
+Urvi Lall,09323032221,ocd,Chhattisgarh,2.23,13,1340.0,1165.8
+Ayesha Gopal,5718940620,anxiety,Andaman and Nicobar Islands,4.04,7,1940.0,1804.2
+Zoya Lanka,06445171657,adhd,Assam,2.23,6,1260.0,1184.4
+Kanav Butala,2005646133,anxiety,Sikkim,2.82,11,1490.0,1326.1
+Hrishita Sibal,07172079421,anxiety,Puducherry,2.93,10,1670.0,1503.0
+Tarini Kade,+911978209672,odd,Madhya Pradesh,4.82,7,1910.0,1776.3
+Hansh Kapur,00311225661,anxiety,Madhya Pradesh,2.75,6,1460.0,1372.4
+Arhaan Subramaniam,+916171598338,autism,Karnataka,4.02,13,1860.0,1618.2
+Advika Goyal,+916379585633,autism,Maharashtra,4.57,15,2090.0,1776.5
+Parinaaz Ray,+913485210128,odd,Arunachal Pradesh,3.08,6,1510.0,1419.4
+Reyansh Kota,2564665598,dyslexia,Jharkhand,2.71,7,1500.0,1395.0
+Khushi Bal,2945641399,adhd,Gujarat,4.15,5,1760.0,1672.0
+Nitya Sampath,0434674645,anxiety,Himachal Pradesh,3.05,15,1700.0,1445.0
+Yuvraj  Dhar,01761448598,autism,West Bengal,2.21,9,1420.0,1292.2
+Tushar Batra,+910018081417,ocd,Punjab,2.14,6,1420.0,1334.8
+Kabir Sagar,09705163130,adhd,Tripura,2.03,14,1340.0,1152.4
+Jivika Shukla,+914700502432,autism,Rajasthan,3.54,15,1610.0,1368.5
+Ayesha Anne,+913004027981,anxiety,Telangana,4.14,6,1810.0,1701.4
+Raunak Sodhi,7164031942,dyslexia,Karnataka,2.4,9,1400.0,1274.0
+Suhana Rajan,01677358467,adhd,Nagaland,3.01,7,1470.0,1367.1
+Samaira D’Alia,+913438829204,anxiety,Assam,2.01,7,1340.0,1246.2
+Charvi Banik,04684588080,dyslexia,Andhra Pradesh,3.93,14,1870.0,1608.2
+Seher Din,+913047956081,dyslexia,Maharashtra,3.15,13,1580.0,1374.6
+Shayak Mangal,5865589139,anxiety,Mizoram,4.75,8,1890.0,1738.8
+Miraan Baral,+911725098903,odd,Arunachal Pradesh,4.0,14,1800.0,1548.0
+Azad Amble,9830087681,odd,Gujarat,3.8,5,1680.0,1596.0
+Rania Ratti,+911509792193,autism,Jharkhand,2.5,12,1390.0,1223.2
+Jhanvi Warrior,+917621383980,ocd,Uttar Pradesh,3.77,11,1810.0,1610.9
+Divit Ben,+913943521525,adhd,Karnataka,2.14,5,1460.0,1387.0
+Hansh Dugal,3188471531,odd,Delhi,3.36,5,1580.0,1501.0
+Vedika Bose,00496704898,odd,Meghalaya,3.12,7,1690.0,1571.7
+Samarth Chokshi,+915890007252,adhd,Tamil Nadu,3.94,10,1900.0,1710.0
+Fateh Raman,06921422563,adhd,Punjab,3.95,7,1710.0,1590.3
+Priyansh Bora,+917022222701,odd,Arunachal Pradesh,3.93,11,1780.0,1584.2
+Vanya Sarin,4695699459,odd,Himachal Pradesh,3.18,11,1740.0,1548.6
+Himmat Khurana,+915152620248,ocd,Telangana,4.46,9,2040.0,1856.4
+Samiha Dutta,+918935937422,odd,Delhi,2.68,6,1520.0,1428.8
+Baiju Sarraf,03310739079,anxiety,Chhattisgarh,4.89,7,2030.0,1887.9
+Amira Anand,07901962483,anxiety,Lakshadweep,3.67,8,1800.0,1656.0
+Aradhya Dada,0083816047,ocd,Madhya Pradesh,2.39,6,1430.0,1344.2
+Indrajit Lad,05961689830,adhd,Rajasthan,4.11,8,1810.0,1665.2
+Indrajit Savant,02897115934,ocd,Lakshadweep,2.8,7,1410.0,1311.3
+Jayesh Sidhu,08721456517,odd,Manipur,2.63,11,1570.0,1397.3
+Oorja Bakshi,6332862266,autism,Chhattisgarh,4.87,14,1990.0,1711.4
+Veer Khosla,3399410282,anxiety,Sikkim,4.42,14,1920.0,1651.2
+Divit Sharma,0041476737,adhd,Goa,3.82,12,1710.0,1504.8
+Hrishita Karpe,0662977969,dyslexia,Telangana,3.77,5,1810.0,1719.5
+Gatik Karpe,+912708304646,adhd,Assam,4.27,9,1830.0,1665.3
+Adira Lad,2670686691,odd,Assam,4.87,14,1930.0,1659.8
+Taran Karpe,07650036526,dyslexia,Assam,4.59,7,1930.0,1794.9
+Krish Saha,9192243806,odd,Telangana,3.99,14,1770.0,1522.2
+Devansh Ravel,8976701433,anxiety,Maharashtra,2.9,7,1450.0,1348.5
+Ivana Bora,+918569761331,anxiety,Uttar Pradesh,2.06,12,1390.0,1223.2
+Drishya Ranganathan,02412521010,dyslexia,Nagaland,4.07,15,1790.0,1521.5
+Samaira Kala,08313684763,dyslexia,Haryana,3.06,12,1650.0,1452.0
+Heer Raju,01989205492,ocd,Dadra and Nagar Haveli,3.71,12,1780.0,1566.4
+Vedika Vora,03408764827,anxiety,Telangana,3.14,5,1600.0,1520.0
+Saksham Lall,3788053432,autism,Daman and Diu,4.18,13,1790.0,1557.3
+Neelofar Bal,1431855244,ocd,Chhattisgarh,3.47,14,1780.0,1530.8
+Prisha Chacko,04816868780,autism,Sikkim,2.76,10,1570.0,1413.0
+Rati Amble,+916240759738,autism,Tripura,3.25,6,1620.0,1522.8
+Madhup Reddy,05171370400,autism,Rajasthan,4.66,12,1970.0,1733.6
+Kanav Setty,+910977066189,adhd,Puducherry,4.21,13,1850.0,1609.5
+Sana Khanna,+910611907347,autism,Goa,4.04,10,1720.0,1548.0
+Purab Vora,+916630952478,ocd,Maharashtra,2.22,8,1410.0,1297.2
+Dhanush Lata,07101243712,adhd,Dadra and Nagar Haveli,4.36,10,1880.0,1692.0
+Ritvik Ranganathan,07911301488,dyslexia,Kerala,2.24,9,1300.0,1183.0
+Neysa Doctor,1148540302,adhd,Sikkim,3.04,9,1500.0,1365.0
+Shamik Chaudhary,07130937122,ocd,Delhi,3.37,14,1550.0,1333.0
+Zain Amble,00577972393,ocd,Bihar,2.6,6,1530.0,1438.2
+Ishita Joshi,8428662110,dyslexia,Andaman and Nicobar Islands,3.01,12,1610.0,1416.8
+Umang Chaudry,06689947718,autism,Meghalaya,4.92,14,2000.0,1720.0
+Miraan Dubey,03079450949,odd,Telangana,2.5,6,1510.0,1419.4
+Navya Khurana,07646197556,ocd,Lakshadweep,3.65,14,1810.0,1556.6
+Anay Khurana,03276954967,ocd,Tripura,4.19,8,1880.0,1729.6
+Shalv Khalsa,07712541173,autism,Andhra Pradesh,4.66,15,2010.0,1708.5
+Kaira Ramakrishnan,6222687086,odd,Daman and Diu,3.95,15,1700.0,1445.0
+Aaina Bava,+916447840284,dyslexia,Manipur,4.22,6,1790.0,1682.6
+Lagan Varty,06776510927,ocd,Himachal Pradesh,3.31,9,1530.0,1392.3
+Hansh Bhagat,+913125301833,anxiety,Andhra Pradesh,2.32,14,1320.0,1135.2
+Kiara Grewal,07618034650,odd,Odisha,2.45,15,1340.0,1139.0
+Reyansh Shere,2587460041,ocd,Mizoram,4.87,8,2140.0,1968.8
+Reyansh Acharya,4392884389,odd,Nagaland,3.95,13,1780.0,1548.6
+Dishani Sem,00386732111,autism,Jharkhand,2.79,14,1480.0,1272.8
+Nitya Sankaran,+911660574456,odd,Tripura,2.75,8,1620.0,1490.4
+Tanya Doctor,5345805698,autism,Puducherry,2.41,7,1330.0,1236.9
+Ahana  Vohra,4892825290,dyslexia,Manipur,4.25,9,1930.0,1756.3
+Nehmat Bhalla,+910215712241,dyslexia,West Bengal,2.53,8,1420.0,1306.4
+Dhanush Rama,+915610153357,adhd,Chandigarh,4.26,12,2000.0,1760.0
+Eva Ganesan,+913846935781,autism,Gujarat,4.7,13,1920.0,1670.4
+Hazel Dixit,09035844145,autism,Telangana,2.82,12,1650.0,1452.0
+Nitara Behl,8546751054,autism,Andhra Pradesh,4.49,13,2050.0,1783.5
+Shlok Sawhney,2818196465,autism,Karnataka,3.9,14,1860.0,1599.6
+Dharmajan Tank,+918413940463,odd,Bihar,4.04,9,1860.0,1692.6
+Aniruddh Saxena,05863285259,ocd,Meghalaya,3.0,10,1630.0,1467.0
+Faiyaz Handa,07498723657,ocd,Gujarat,2.88,11,1650.0,1468.5
+Indrans Balan,+910963583688,adhd,Meghalaya,3.47,12,1710.0,1504.8
+Faiyaz Bhattacharyya,+912252580186,adhd,Goa,2.77,14,1620.0,1393.2
+Vivaan Krishnamurthy,+914133946841,dyslexia,Karnataka,4.28,5,1970.0,1871.5
+Saira Chhabra,9206413258,autism,Gujarat,3.74,10,1770.0,1593.0
+Bhavin Loke,02379453623,anxiety,Manipur,2.52,14,1460.0,1255.6
+Vivaan Goyal,03545265096,autism,Arunachal Pradesh,2.63,10,1410.0,1269.0
+Aaina Saini,06852779389,ocd,Karnataka,3.18,12,1600.0,1408.0
+Zoya Chaudhary,+913899933705,adhd,Tripura,2.32,7,1420.0,1320.6
+Raunak Dayal,+914219662250,ocd,Chhattisgarh,2.23,11,1290.0,1148.1
+Sana Uppal,+914193169409,adhd,Karnataka,4.14,8,1800.0,1656.0
+Kartik Seth,7522570589,anxiety,Tripura,4.25,10,1970.0,1773.0
+Advika Sharaf,+914893981179,dyslexia,Kerala,4.27,6,1970.0,1851.8
+Romil Chanda,0388228693,adhd,Bihar,2.45,13,1340.0,1165.8
+Advik Hora,+918234140319,dyslexia,Telangana,4.95,14,2090.0,1797.4
+Riaan Thaker,+912284298135,odd,Tripura,2.43,10,1440.0,1296.0
+Ivana Mani,05904436132,ocd,Uttar Pradesh,2.64,8,1550.0,1426.0
+Pranay Kanda,+918798186953,autism,Karnataka,4.85,10,1950.0,1755.0
+Kaira Chandran,+915929085306,odd,Uttarakhand,2.83,6,1440.0,1353.6
+Yuvraj  Bajwa,+915821133639,odd,Uttarakhand,2.34,8,1390.0,1278.8
+Tara Bir,0717200061,adhd,Chandigarh,2.65,6,1380.0,1297.2
+Vritika Master,02923926715,autism,Odisha,2.16,14,1310.0,1126.6
+Hrishita Kota,1675261098,anxiety,Chandigarh,4.16,8,1820.0,1674.4
+Manjari Soman,5596711492,odd,Madhya Pradesh,4.79,8,1900.0,1748.0
+Dhruv Gara,5994322138,odd,Madhya Pradesh,3.05,8,1590.0,1462.8
+Aradhya Guha,4280898017,ocd,Haryana,3.67,14,1680.0,1444.8
+Mamooty Chowdhury,+913148673882,autism,Chhattisgarh,2.59,5,1580.0,1501.0
+Kaira Comar,1273337865,odd,Haryana,2.26,15,1270.0,1079.5
+Nishith Dass,+910811573141,anxiety,Madhya Pradesh,3.73,12,1750.0,1540.0
+Charvi Kulkarni,08440428428,autism,Arunachal Pradesh,4.88,6,1960.0,1842.4
+Samiha Taneja,+914162793363,anxiety,Assam,3.09,9,1660.0,1510.6
+Lakshay Suri,5767038197,dyslexia,Andhra Pradesh,4.99,9,1980.0,1801.8
+Badal Dixit,02850223624,autism,West Bengal,2.84,10,1450.0,1305.0
+Purab Banerjee,7223072157,anxiety,Jharkhand,4.1,13,1890.0,1644.3
+Nakul Barad,+912208547109,odd,Mizoram,3.64,11,1800.0,1602.0
+Jivika Wagle,+915202026475,adhd,Chandigarh,4.38,10,1900.0,1710.0
+Hiran Subramaniam,+913204110169,autism,West Bengal,3.85,9,1740.0,1583.4
+Raghav Chaudry,09716056638,ocd,Madhya Pradesh,3.52,10,1590.0,1431.0
+Divij Yohannan,2989393743,odd,Mizoram,2.46,9,1350.0,1228.5
+Miraya Sagar,07173325021,dyslexia,Punjab,4.91,12,2060.0,1812.8
+Jiya Deol,5683625649,adhd,Karnataka,4.63,13,1890.0,1644.3
+Renee Sethi,+916015195421,ocd,Madhya Pradesh,3.15,12,1600.0,1408.0
+Ishaan Datta,9360449893,ocd,Odisha,2.18,13,1360.0,1183.2
+Ayesha Kumer,+919473814098,adhd,Himachal Pradesh,3.56,9,1680.0,1528.8
+Pihu Hora,+913797318704,dyslexia,Manipur,3.9,5,1740.0,1653.0
+Biju Jaggi,+914516233129,odd,West Bengal,2.83,6,1500.0,1410.0
+Anika Tiwari,+914677680074,autism,Gujarat,2.43,13,1340.0,1165.8
+Neysa Andra,01576848350,autism,Delhi,2.79,10,1440.0,1296.0
+Suhana Brar,7912879170,autism,Lakshadweep,3.4,6,1640.0,1541.6
+Kimaya Lad,01556886750,ocd,Daman and Diu,4.02,13,1940.0,1687.8
+Suhana Sama,0063404557,autism,Delhi,3.96,14,1840.0,1582.4
+Samaira Devan,07544118626,anxiety,Daman and Diu,2.14,8,1310.0,1205.2
+Ivana Swaminathan,9028320568,adhd,Maharashtra,4.25,12,1990.0,1751.2
+Romil Kalita,+914468006551,adhd,Punjab,2.22,8,1290.0,1186.8
+Hazel Gaba,09667531844,dyslexia,Haryana,2.91,9,1460.0,1328.6
+Mannat Gandhi,03423996289,odd,Kerala,4.95,13,2000.0,1740.0
+Saanvi Doshi,02271121377,ocd,Telangana,4.22,7,1850.0,1720.5
+Manjari Vyas,+912923370706,autism,Uttarakhand,2.98,13,1510.0,1313.7
+Ivan Mangal,1820396929,dyslexia,Odisha,4.13,9,1890.0,1719.9
+Rati Rajagopal,6282926968,anxiety,Dadra and Nagar Haveli,4.3,12,1990.0,1751.2
+Tushar Kurian,+914482247702,ocd,Tamil Nadu,3.32,12,1600.0,1408.0
+Amani Madan,+915861874191,odd,Lakshadweep,4.9,6,2020.0,1898.8
+Tejas Raval,4451090538,ocd,Jharkhand,3.07,8,1710.0,1573.2
+Heer Sahota,04114597704,ocd,Punjab,2.34,13,1360.0,1183.2
+Kashvi Jani,05981463300,anxiety,Madhya Pradesh,3.93,8,1830.0,1683.6
+Lavanya Dhingra,5124250608,odd,Sikkim,4.17,8,1870.0,1720.4
+Mamooty Sanghvi,6961252238,ocd,Gujarat,4.46,5,1970.0,1871.5
+Kashvi Gala,+919289873849,odd,Gujarat,4.78,11,2050.0,1824.5
+Mamooty Virk,+911277910091,odd,Tamil Nadu,2.41,14,1510.0,1298.6
+Mahika Thakkar,+915903888896,anxiety,Jharkhand,4.03,13,1880.0,1635.6
+Indrajit Chowdhury,+910499686253,dyslexia,Telangana,3.05,13,1530.0,1331.1
+Mannat Gandhi,07722268379,odd,Karnataka,3.16,11,1670.0,1486.3
+Hunar Tiwari,07038133606,odd,Madhya Pradesh,4.35,14,1820.0,1565.2
+Nitya Kibe,07949078402,dyslexia,Lakshadweep,4.36,6,1980.0,1861.2
+Kashvi Keer,+913784457214,anxiety,Punjab,4.91,11,2090.0,1860.1
+Kashvi Kala,+915430209998,autism,Assam,4.16,6,1900.0,1786.0
+Renee Chowdhury,+910485532548,dyslexia,Kerala,2.78,7,1510.0,1404.3
+Alisha Kumer,8258735007,autism,Meghalaya,4.66,13,1990.0,1731.3
+Bhavin Sengupta,2931991438,ocd,Chhattisgarh,4.26,14,1970.0,1694.2
+Seher Iyengar,3340064170,odd,Andhra Pradesh,4.89,13,2140.0,1861.8
+Manjari Chana,5767217280,anxiety,Jharkhand,3.85,13,1770.0,1539.9
+Advika Chaudhari,+919907287859,odd,Madhya Pradesh,2.65,6,1610.0,1513.4
+Divij Balay,8453639822,odd,Manipur,3.3,7,1700.0,1581.0
+Fateh Aurora,0115725213,adhd,Daman and Diu,3.55,6,1610.0,1513.4
+Jivika Dubey,02392034853,ocd,Andaman and Nicobar Islands,4.47,6,1970.0,1851.8
+Akarsh Deshpande,+919781771476,autism,Odisha,3.0,15,1530.0,1300.5
+Myra Sharma,00242643660,autism,Goa,2.98,10,1560.0,1404.0
+Arhaan Seshadri,+918649280429,anxiety,Chandigarh,2.43,15,1480.0,1258.0
+Tarini Krishnan,+910623838790,dyslexia,Himachal Pradesh,3.12,14,1720.0,1479.2
+Tejas Rege,4506077113,adhd,Madhya Pradesh,4.06,10,1760.0,1584.0
+Shalv Mani,05975567784,odd,Puducherry,4.39,5,1910.0,1814.5
+Raunak Gaba,5829242085,dyslexia,Nagaland,4.24,6,1990.0,1870.6
+Mohanlal Gandhi,8617336511,dyslexia,Lakshadweep,4.88,11,2030.0,1806.7
+Shamik Sarma,2868124788,ocd,Karnataka,4.94,6,2090.0,1964.6
+Zaina Kibe,00791070371,dyslexia,Andaman and Nicobar Islands,2.11,8,1350.0,1242.0
+Anahita Deo,0417889942,autism,Dadra and Nagar Haveli,2.05,14,1450.0,1247.0
+Lakshay Wable,1587398602,anxiety,Puducherry,4.75,6,2070.0,1945.8
+Ayesha Borde,+918805525585,adhd,Uttarakhand,2.94,14,1570.0,1350.2
+Reyansh Hayer,02038530259,adhd,Arunachal Pradesh,2.92,6,1500.0,1410.0
+Farhan Sangha,0690318960,ocd,Mizoram,4.93,6,2170.0,2039.8
+Faiyaz Vasa,05265695077,ocd,Arunachal Pradesh,4.6,9,2030.0,1847.3
+Priyansh Kapur,7515072893,anxiety,Daman and Diu,4.77,5,2080.0,1976.0
+Mishti Ramachandran,5155991446,adhd,Andhra Pradesh,4.86,13,2050.0,1783.5
+Urvi Dalal,8825599298,dyslexia,Karnataka,2.65,7,1500.0,1395.0
+Nitara Sachar,+919148947263,anxiety,Tripura,4.96,6,2160.0,2030.4
+Divyansh Arora,1439897043,ocd,Maharashtra,2.69,7,1490.0,1385.7
+Ryan Yohannan,5962008260,odd,Kerala,4.46,9,1880.0,1710.8
+Seher Rastogi,09317309973,dyslexia,Arunachal Pradesh,4.31,14,1860.0,1599.6
+Vaibhav Kunda,9347647728,autism,Jharkhand,4.44,8,1950.0,1794.0
+Manjari Ramesh,9554499737,odd,Bihar,3.3,9,1760.0,1601.6
+Yuvraj  Dhillon,+915293902629,dyslexia,Arunachal Pradesh,4.05,10,1770.0,1593.0
+Kismat Kalla,8526692445,odd,Kerala,3.41,11,1640.0,1459.6
+Raghav Choudhry,+912051902271,odd,Himachal Pradesh,4.36,13,1850.0,1609.5
+Badal Acharya,7690663577,dyslexia,Tripura,2.45,8,1540.0,1416.8
+Abram Chauhan,8158349743,ocd,Uttar Pradesh,2.78,8,1600.0,1472.0
+Tanya Sama,+914432931469,dyslexia,Dadra and Nagar Haveli,2.93,12,1560.0,1372.8
+Anay Gokhale,9309325257,dyslexia,Arunachal Pradesh,3.18,9,1530.0,1392.3
+Krish Mangal,06458562198,adhd,Gujarat,2.59,11,1480.0,1317.2
+Aniruddh Grover,4754624010,ocd,Kerala,2.07,15,1320.0,1122.0
+Aaryahi Grover,6423155952,odd,Chandigarh,4.81,14,2120.0,1823.2
+Dhanush Krishna,+913726249447,ocd,Nagaland,2.15,13,1280.0,1113.6
+Nehmat Ganesh,+913985798700,anxiety,Nagaland,3.11,9,1700.0,1547.0
+Raunak Hora,+912219934143,odd,Maharashtra,4.47,13,1860.0,1618.2
+Kanav Deep,07973135528,odd,Chandigarh,4.2,5,1750.0,1662.5
+Kimaya Tak,0623764931,adhd,Mizoram,2.59,7,1460.0,1357.8
+Elakshi Gade,7623429829,autism,Manipur,2.17,9,1420.0,1292.2
+Reyansh Ram,+911632848312,ocd,Maharashtra,4.5,10,1920.0,1728.0
+Parinaaz Dalal,+916539662825,odd,Uttarakhand,4.64,12,1980.0,1742.4
+Zaina Agrawal,+910927082325,odd,Meghalaya,4.72,11,2050.0,1824.5
+Amira Arora,05994086962,anxiety,Assam,3.89,11,1690.0,1504.1
+Gatik Boase,5875712804,adhd,Gujarat,4.82,10,1940.0,1746.0
+Hrishita Savant,5469879949,odd,Goa,3.76,8,1850.0,1702.0
+Miraan Varty,+915868478716,adhd,Chandigarh,2.69,10,1410.0,1269.0
+Zain Buch,00036353587,autism,Jharkhand,3.09,12,1600.0,1408.0
+Lakshit Keer,+915240174288,autism,Andhra Pradesh,4.39,11,2000.0,1780.0
+Parinaaz Krishna,9017636537,odd,Puducherry,3.04,7,1470.0,1367.1
+Hansh Kumar,1945944369,ocd,Himachal Pradesh,3.36,8,1730.0,1591.6
+Umang Khare,+910621000007,ocd,Karnataka,2.38,15,1380.0,1173.0
+Yuvraj  Kumar,8673048578,adhd,Andaman and Nicobar Islands,3.51,13,1600.0,1392.0
+Ivana Amble,7942521445,dyslexia,Uttarakhand,4.65,8,1890.0,1738.8
+Sara Master,3077474219,autism,Chhattisgarh,2.61,5,1520.0,1444.0
+Inaaya  Iyer,03386847589,odd,Goa,4.19,14,1850.0,1591.0
+Lagan Sura,01875091632,adhd,Tripura,3.9,12,1680.0,1478.4
+Shlok Kothari,1362916428,autism,Madhya Pradesh,3.98,13,1710.0,1487.7
+Nishith Madan,05147050652,dyslexia,Delhi,4.96,14,2180.0,1874.8
+Hunar Malhotra,01854549225,odd,Chandigarh,4.02,6,1720.0,1616.8
+Romil Samra,1899678796,ocd,Uttarakhand,2.12,13,1360.0,1183.2
+Ishaan Viswanathan,07173776107,autism,Himachal Pradesh,3.08,9,1570.0,1428.7
+Vidur Tripathi,+917070087217,anxiety,Lakshadweep,2.86,10,1530.0,1377.0
+Hrishita Chad,3355196440,autism,Manipur,3.42,11,1780.0,1584.2
+Divyansh Shroff,00788188249,adhd,Jharkhand,4.18,12,1750.0,1540.0
+Shlok Chahal,+911712548027,anxiety,Himachal Pradesh,3.9,9,1900.0,1729.0
+Miraya Ramanathan,+919975933116,ocd,Tripura,2.79,13,1540.0,1339.8
+Tara Bhavsar,2049426876,anxiety,Maharashtra,2.37,8,1340.0,1232.8
+Rhea D’Alia,5866652175,ocd,Tripura,3.38,10,1610.0,1449.0
+Dhruv Tailor,+916281702898,anxiety,Madhya Pradesh,4.18,6,1900.0,1786.0
+Sahil Sheth,+912993598615,autism,Odisha,4.68,13,1890.0,1644.3
+Farhan Lad,07902171132,ocd,Goa,2.18,6,1470.0,1381.8
+Priyansh Varughese,1446839171,autism,Delhi,2.01,6,1420.0,1334.8
+Pihu Bansal,+916451087911,adhd,Telangana,2.48,11,1450.0,1290.5
+Adah Ray,3922702580,odd,West Bengal,4.18,14,1750.0,1505.0
+Hrishita Hari,8970096808,dyslexia,Uttar Pradesh,3.49,10,1820.0,1638.0
+Samar Taneja,5158571701,autism,Dadra and Nagar Haveli,3.98,11,1740.0,1548.6
+Tarini Bajwa,+913048278268,dyslexia,Karnataka,3.79,7,1790.0,1664.7
+Prisha Banerjee,1892723152,anxiety,Puducherry,3.92,9,1760.0,1601.6
+Shlok Dhawan,8966822531,autism,Mizoram,3.88,7,1760.0,1636.8
+Jayant Sarma,01555332950,autism,Andaman and Nicobar Islands,2.47,13,1400.0,1218.0
+Emir Dar,0859117465,autism,Uttar Pradesh,4.43,7,1900.0,1767.0
+Alisha Mand,+913500530598,dyslexia,Daman and Diu,2.43,6,1480.0,1391.2
+Onkar Raval,+919242549670,odd,Gujarat,3.75,9,1800.0,1638.0
+Ranbir Ratti,04583684830,anxiety,Goa,4.11,10,1870.0,1683.0
+Ranbir Kade,+910838353112,autism,Kerala,4.06,14,1790.0,1539.4
+Seher Agate,4267642865,ocd,Andhra Pradesh,3.08,13,1710.0,1487.7
+Himmat Lanka,+915110028457,adhd,Telangana,2.43,12,1530.0,1346.4
+Shray Mani,+915854751159,autism,Telangana,4.56,5,2000.0,1900.0
+Sahil Singh,01930716739,adhd,Nagaland,2.28,12,1290.0,1135.2
+Samar Ratta,+918832718486,odd,Chandigarh,4.92,12,1970.0,1733.6
+Hunar Gupta,03887689209,odd,Goa,4.77,13,1940.0,1687.8
+Darshit Tandon,02912264985,odd,Odisha,4.93,10,2090.0,1881.0
+Saanvi Handa,02099358993,odd,Haryana,3.0,11,1640.0,1459.6
+Kanav Edwin,05256346477,odd,Uttarakhand,4.55,8,2080.0,1913.6
+Ahana  Din,2653041808,anxiety,Jharkhand,3.17,15,1620.0,1377.0
+Jiya Kaul,+912851220944,odd,Daman and Diu,4.36,11,1840.0,1637.6
+Drishya Sibal,05296189620,adhd,Nagaland,2.05,14,1300.0,1118.0
+Prerak Chakraborty,8501725495,ocd,Daman and Diu,4.43,6,1820.0,1710.8
+Devansh Buch,1621114468,dyslexia,Tripura,2.07,12,1270.0,1117.6
+Ritvik Sarma,05926027547,anxiety,Kerala,3.73,11,1720.0,1530.8
+Jayesh Sinha,05516083061,dyslexia,Jharkhand,2.41,10,1490.0,1341.0
+Riaan Chand,00827075708,adhd,Rajasthan,3.29,5,1600.0,1520.0
+Nayantara Mahal,9532725887,autism,Gujarat,4.23,8,1950.0,1794.0
+Kiaan Bera,04879957650,ocd,Chhattisgarh,3.51,10,1670.0,1503.0
+Samiha Dyal,+918405607532,odd,Tamil Nadu,2.46,6,1400.0,1316.0
+Arnav Doctor,5232705733,autism,Odisha,2.65,6,1530.0,1438.2
+Badal Hora,+916951017286,dyslexia,Delhi,3.69,8,1690.0,1554.8
+Aarav Sur,+917275391805,anxiety,Arunachal Pradesh,2.08,5,1360.0,1292.0
+Saira Sharaf,+915724626000,ocd,Andaman and Nicobar Islands,4.42,15,2030.0,1725.5
+Reyansh Ghosh,+913155334196,dyslexia,Manipur,4.56,14,1940.0,1668.4
+Mishti Lal,9854901460,adhd,Rajasthan,3.51,12,1720.0,1513.6
+Neysa Loyal,0378773525,anxiety,Assam,3.15,7,1500.0,1395.0
+Nitya Setty,4449972753,autism,Bihar,4.17,13,1760.0,1531.2
+Navya Kata,7387314771,autism,Haryana,3.52,9,1700.0,1547.0
+Reyansh Deshpande,07962515497,autism,Uttarakhand,2.76,7,1530.0,1422.9
+Sumer Raju,07430710491,ocd,Gujarat,3.74,5,1690.0,1605.5
+Samiha Goyal,2541633330,autism,Chandigarh,3.8,12,1890.0,1663.2
+Dhanuk Hora,+913107791447,adhd,Dadra and Nagar Haveli,3.43,9,1570.0,1428.7
+Rasha Madan,1681147647,autism,Chhattisgarh,3.5,12,1690.0,1487.2
+Onkar Ahuja,+918295667435,autism,Dadra and Nagar Haveli,4.97,14,2020.0,1737.2
+Jivika Contractor,4288774759,ocd,Rajasthan,4.92,8,2020.0,1858.4
+Indranil Sodhi,+915084788028,odd,Andaman and Nicobar Islands,4.82,11,2080.0,1851.2
+Aarav Keer,6934924097,ocd,Haryana,3.76,12,1880.0,1654.4
+Badal Ranganathan,7794126520,autism,Tamil Nadu,2.44,11,1440.0,1281.6
+Ritvik Bumb,+914551713477,dyslexia,Daman and Diu,3.06,10,1600.0,1440.0
+Gatik Halder,+918493162757,dyslexia,Madhya Pradesh,2.94,12,1460.0,1284.8
+Baiju Boase,00261859222,odd,West Bengal,4.7,14,1990.0,1711.4
+Khushi Sarma,06745070683,adhd,Andaman and Nicobar Islands,2.67,6,1530.0,1438.2
+Ojas Samra,04929203074,odd,West Bengal,3.13,7,1530.0,1422.9
+Yashvi Gola,02855685780,odd,Punjab,3.36,9,1740.0,1583.4
+Divit Varughese,4549926939,ocd,Tripura,3.22,7,1750.0,1627.5
+Aniruddh Bhatia,0790263602,anxiety,Himachal Pradesh,4.62,12,1960.0,1724.8
+Vivaan Bail,7093754848,adhd,Haryana,2.29,8,1360.0,1251.2
+Pihu Sheth,+919569821835,adhd,Maharashtra,4.39,14,1850.0,1591.0
+Miraya Ravi,7137967359,dyslexia,Rajasthan,2.01,6,1420.0,1334.8
+Arhaan Mane,2269080061,dyslexia,Arunachal Pradesh,4.47,7,1940.0,1804.2
+Mannat Upadhyay,03529402630,anxiety,Puducherry,3.12,13,1640.0,1426.8
+Yuvraj  Subramanian,4419203716,autism,Kerala,2.35,6,1430.0,1344.2
+Ela Madan,09346745886,anxiety,Puducherry,2.62,11,1500.0,1335.0
+Shalv Khurana,04823728009,adhd,Chandigarh,3.01,12,1540.0,1355.2
+Taran Ray,+916761558670,autism,Goa,2.31,12,1480.0,1302.4
+Nishith Subramanian,4525505043,anxiety,Andhra Pradesh,2.34,6,1390.0,1306.6
+Ryan Devan,8321528107,dyslexia,Himachal Pradesh,3.73,5,1860.0,1767.0
+Prerak Karan,3037056775,ocd,Gujarat,3.61,11,1610.0,1432.9
+Siya Chakrabarti,00889762025,adhd,Karnataka,2.86,8,1510.0,1389.2
+Shalv Dani,+919995621075,odd,Punjab,4.31,11,2010.0,1788.9
+Anika Som,+915677687741,odd,Odisha,3.03,10,1520.0,1368.0
+Farhan Taneja,5965689441,ocd,Nagaland,4.36,7,1840.0,1711.2
+Kiaan Khare,0385025835,ocd,Madhya Pradesh,3.53,10,1800.0,1620.0
+Adira Dani,+911617912186,ocd,Chhattisgarh,2.06,12,1340.0,1179.2
+Reyansh Mammen,01343737585,adhd,Dadra and Nagar Haveli,4.09,12,1750.0,1540.0
+Aaina Samra,01872741854,adhd,Delhi,2.81,7,1640.0,1525.2
+Mohanlal Srinivasan,+918020909593,dyslexia,Arunachal Pradesh,3.57,6,1610.0,1513.4
+Nayantara Walla,2153464809,dyslexia,Madhya Pradesh,4.63,7,1880.0,1748.4
+Kiaan Balasubramanian,2534838455,adhd,Arunachal Pradesh,3.21,9,1560.0,1419.6
+Reyansh Varma,+916592711489,dyslexia,Himachal Pradesh,2.76,9,1410.0,1283.1
+Nitya Kota,6071495172,anxiety,Kerala,2.36,6,1520.0,1428.8
+Zeeshan Bora,+917161500174,autism,Kerala,3.05,12,1490.0,1311.2
+Dhruv Barad,07515493047,anxiety,Arunachal Pradesh,2.75,11,1570.0,1397.3
+Taran Kanda,09698926379,dyslexia,Nagaland,4.38,7,1980.0,1841.4
+Hansh Dhaliwal,06507501865,adhd,Assam,2.91,10,1450.0,1305.0
+Sara Dash,+912680159131,dyslexia,Dadra and Nagar Haveli,4.7,12,2040.0,1795.2
+Prerak Tripathi,5396699073,dyslexia,Nagaland,2.53,14,1420.0,1221.2
+Nitya Mallick,1323149857,odd,Assam,4.82,6,2100.0,1974.0
+Heer Bedi,+914664435607,adhd,Karnataka,3.52,9,1590.0,1446.9
+Aaina Dey,6853603442,dyslexia,Uttarakhand,2.28,10,1300.0,1170.0
+Hunar Sastry,7984668865,adhd,Rajasthan,2.54,11,1500.0,1335.0
+Jayan Sachdeva,+919219564063,odd,Maharashtra,2.73,10,1560.0,1404.0
+Jayesh Mani,+911723470268,adhd,Gujarat,3.32,14,1690.0,1453.4
+Aarna Bir,+912868315677,anxiety,Haryana,3.58,7,1750.0,1627.5
+Jhanvi Dhawan,+910354617019,adhd,Meghalaya,2.28,7,1310.0,1218.3
+Adah Khatri,7123473645,dyslexia,Delhi,4.02,6,1920.0,1804.8
+Indrans Gour,+912508057611,odd,Delhi,2.26,15,1270.0,1079.5
+Aarna Jain,+914161333852,anxiety,Uttarakhand,2.11,7,1280.0,1190.4
+Elakshi Sura,7348958803,ocd,Dadra and Nagar Haveli,3.25,12,1590.0,1399.2
+Trisha Saraf,06519846630,autism,Odisha,4.49,13,2050.0,1783.5
+Jiya Badal,5245682667,odd,Lakshadweep,2.03,9,1390.0,1264.9
+Himmat Baria,2903836504,adhd,Sikkim,2.99,8,1700.0,1564.0
+Zeeshan Ben,3784069576,adhd,Arunachal Pradesh,4.54,12,1940.0,1707.2
+Sumer Lall,01272518353,dyslexia,Chhattisgarh,4.15,11,1780.0,1584.2
+Navya Baria,+910947203020,odd,Rajasthan,2.33,12,1440.0,1267.2
+Hansh Sidhu,3507209055,odd,Karnataka,3.88,12,1920.0,1689.6
+Jivika Dugal,07249720640,autism,Andaman and Nicobar Islands,3.46,10,1680.0,1512.0
+Drishya D’Alia,+918993445375,anxiety,Nagaland,3.24,13,1640.0,1426.8
+Nayantara Kala,3340427767,anxiety,Dadra and Nagar Haveli,4.58,7,1950.0,1813.5
+Damini Hari,4006792163,odd,Puducherry,3.88,6,1730.0,1626.2
+Ryan Kar,+912282564618,dyslexia,Bihar,4.71,14,2120.0,1823.2
+Trisha Kadakia,0042814506,autism,Sikkim,2.32,8,1400.0,1288.0
+Shlok Goswami,+917798144023,adhd,Puducherry,3.95,7,1750.0,1627.5
+Lakshay Varughese,+917264950138,dyslexia,Chhattisgarh,4.25,8,1830.0,1683.6
+Diya Sarraf,4683694936,dyslexia,Tamil Nadu,3.37,11,1590.0,1415.1
+Parinaaz Varty,+916574587610,adhd,Daman and Diu,3.08,10,1510.0,1359.0
+Ishita Bains,+913625830005,ocd,Gujarat,4.15,11,1870.0,1664.3
+Vedika Chahal,+918835099887,odd,Mizoram,4.01,13,1940.0,1687.8
+Vivaan Mammen,+913361214673,dyslexia,Odisha,4.84,12,1970.0,1733.6
+Misha Chander,05192437676,ocd,Andhra Pradesh,3.15,9,1600.0,1456.0
+Yuvaan Kurian,1660998306,ocd,Karnataka,2.48,11,1520.0,1352.8
+Anya Dubey,3189185057,odd,West Bengal,4.27,14,1840.0,1582.4
+Nirvaan Mannan,+918419067915,adhd,Tamil Nadu,4.88,10,2030.0,1827.0
+Veer Sibal,07486849618,anxiety,Jharkhand,2.64,9,1370.0,1246.7
+Vanya Raju,+919638960994,dyslexia,Uttar Pradesh,4.57,12,1880.0,1654.4
+Jivin Kale,5888920006,anxiety,Haryana,3.21,10,1670.0,1503.0
+Mohanlal Sachdev,1689916638,ocd,Puducherry,4.16,8,1840.0,1692.8
+Zain Karnik,+917010216016,ocd,Bihar,4.66,14,2030.0,1745.8
+Divit Sharaf,6238711023,ocd,Tripura,2.82,6,1630.0,1532.2
+Anahita Mani,0028509692,adhd,Tamil Nadu,3.75,14,1670.0,1436.2
+Shamik Varma,5862730785,odd,Lakshadweep,3.5,6,1700.0,1598.0
+Kiaan Luthra,8919329562,odd,Mizoram,4.85,7,2070.0,1925.1
+Neelofar Ram,02635491914,odd,Andaman and Nicobar Islands,2.68,6,1620.0,1522.8
+Aaryahi Sarna,+918689625797,dyslexia,Himachal Pradesh,3.32,6,1630.0,1532.2
+Uthkarsh Manne,0119899444,anxiety,Karnataka,2.27,5,1510.0,1434.5
+Manjari Tailor,3085233204,odd,Chhattisgarh,2.99,7,1610.0,1497.3
+Zaina Dutt,+915501979859,autism,Karnataka,3.11,10,1550.0,1395.0
+Gokul Arora,8347407693,adhd,Rajasthan,3.74,12,1680.0,1478.4
+Suhana Vala,5878841920,ocd,Gujarat,3.87,15,1700.0,1445.0
+Yashvi Sani,6346268529,odd,Uttar Pradesh,2.02,15,1290.0,1096.5
+Devansh Sant,09143589790,odd,Gujarat,2.55,9,1420.0,1292.2
+Hiran Ratti,06915821973,dyslexia,Tamil Nadu,4.74,14,2120.0,1823.2
+Prisha Dixit,+918863790683,anxiety,Tamil Nadu,3.86,12,1910.0,1680.8
+Kismat Toor,07856972231,ocd,Daman and Diu,3.36,8,1750.0,1610.0
+Shray Raman,04783110252,ocd,Jharkhand,2.4,5,1410.0,1339.5
+Adira Kashyap,+913078138793,odd,Uttarakhand,4.1,13,1750.0,1522.5
+Eva Ganesan,06545697504,adhd,Bihar,2.29,13,1390.0,1209.3
+Aarav Arya,1822934885,autism,Chhattisgarh,4.44,6,1970.0,1851.8
+Hunar Raja,+912622669782,anxiety,Mizoram,3.18,14,1680.0,1444.8
+Hunar Issac,01651082323,anxiety,Madhya Pradesh,4.01,9,1890.0,1719.9
+Amani Kumer,0066993980,odd,Punjab,3.74,13,1760.0,1531.2
+Manjari Loyal,06233392079,adhd,Dadra and Nagar Haveli,2.21,6,1400.0,1316.0
+Shaan Lall,6566567625,adhd,Daman and Diu,2.98,12,1530.0,1346.4
+Baiju Saran,09321902304,adhd,Rajasthan,3.17,5,1710.0,1624.5
+Saira Yohannan,06987637489,autism,Maharashtra,4.09,12,1740.0,1531.2
+Shalv Bedi,03514408779,anxiety,Dadra and Nagar Haveli,4.89,11,2020.0,1797.8
+Ryan Sura,02826089503,dyslexia,Sikkim,3.05,14,1520.0,1307.2
+Aayush Mall,+914435629997,adhd,Uttar Pradesh,4.73,12,2050.0,1804.0
+Kiaan Dhingra,0412841967,autism,Madhya Pradesh,3.03,12,1690.0,1487.2
+Nitara Roy,+917396129276,ocd,Uttar Pradesh,2.15,11,1310.0,1165.9
+Parinaaz Chopra,08342622443,adhd,Chhattisgarh,4.74,6,2040.0,1917.6
+Mohanlal Thakur,08455241626,ocd,Bihar,2.32,13,1320.0,1148.4
+Rhea Kadakia,6031160076,ocd,Jharkhand,4.91,9,2000.0,1820.0
+Anay Balan,02350686210,dyslexia,Tamil Nadu,3.01,7,1500.0,1395.0
+Pihu Date,+912173919798,dyslexia,Assam,4.36,12,1910.0,1680.8
+Mishti D’Alia,+917234019580,dyslexia,Goa,3.6,6,1740.0,1635.6
+Prisha Bora,2028850579,ocd,Punjab,3.3,7,1720.0,1599.6
+Jayant Chaudhary,8023376507,ocd,Dadra and Nagar Haveli,2.31,10,1330.0,1197.0
+Neysa Dhar,07917263839,adhd,Andaman and Nicobar Islands,3.1,14,1690.0,1453.4
+Adah Chacko,02180533526,ocd,Meghalaya,3.52,9,1620.0,1474.2
+Dhruv Loke,+915093632141,anxiety,Andhra Pradesh,2.31,8,1350.0,1242.0
+Aaina Bassi,0519141378,ocd,Telangana,4.17,7,1930.0,1794.9
+Nakul Balakrishnan,+919252840429,ocd,Kerala,3.83,10,1900.0,1710.0
+Dhanuk Solanki,+917609347729,ocd,Andaman and Nicobar Islands,2.47,7,1370.0,1274.1
+Ryan Chawla,09978119392,dyslexia,Daman and Diu,2.45,10,1460.0,1314.0
+Purab Majumdar,+918188463400,dyslexia,Chhattisgarh,4.74,11,1980.0,1762.2
+Taimur Devan,2826498672,ocd,Daman and Diu,4.93,11,2170.0,1931.3
+Madhav Golla,07602507941,dyslexia,Delhi,4.89,13,2160.0,1879.2
+Kiara Mahajan,5461894212,anxiety,Punjab,2.41,14,1430.0,1229.8
+Kartik Kapoor,1549685177,odd,Lakshadweep,3.39,10,1710.0,1539.0
+Trisha Gokhale,+913124085625,adhd,Andhra Pradesh,2.49,7,1540.0,1432.2
+Lagan Ravel,+919347677873,autism,Himachal Pradesh,4.77,7,1920.0,1785.6
+Jivin Kannan,09031103344,adhd,Tamil Nadu,4.91,5,2010.0,1909.5
+Abram Sehgal,+916579803371,autism,Jharkhand,3.14,12,1700.0,1496.0
+Rati Kunda,4466274450,anxiety,Puducherry,2.63,9,1510.0,1374.1
+Shray Grover,04546516357,dyslexia,Telangana,3.5,6,1800.0,1692.0
+Ivan Dube,09467550985,adhd,Odisha,2.9,13,1480.0,1287.6
+Biju Sha,00946130980,adhd,Mizoram,3.07,6,1610.0,1513.4
+Jivika Bakshi,8838050545,dyslexia,Puducherry,2.92,9,1580.0,1437.8
+Prisha Grover,4936394684,adhd,Haryana,3.49,10,1590.0,1431.0
+Ivan Bobal,+914286538442,autism,Puducherry,2.44,8,1360.0,1251.2
+Pihu Dewan,+918661626095,odd,Goa,4.73,13,1920.0,1670.4
+Yashvi Deep,+916482070812,odd,Kerala,3.0,7,1660.0,1543.8
+Biju Lal,06650594019,adhd,Chhattisgarh,4.87,14,1980.0,1702.8
+Yuvaan Bal,03786965084,anxiety,Jharkhand,3.29,14,1530.0,1315.8
+Shamik Lanka,+917635394819,adhd,Odisha,4.92,9,2090.0,1901.9
+Ishita Chaudhry,+915976505310,anxiety,Meghalaya,2.35,12,1420.0,1249.6
+Aradhya Gill,02302023889,dyslexia,Chhattisgarh,2.22,11,1440.0,1281.6
+Onkar Trivedi,+910887010114,adhd,Meghalaya,3.5,13,1790.0,1557.3
+Tara Kapadia,05897778378,autism,Andhra Pradesh,3.26,6,1650.0,1551.0
+Diya Lal,0257686656,autism,Telangana,2.27,12,1360.0,1196.8
+Uthkarsh Raj,05053796083,anxiety,Chandigarh,2.06,10,1240.0,1116.0
+Shalv Chauhan,+916798594353,adhd,Assam,4.38,11,1880.0,1673.2
+Saira Chandra,9501218003,ocd,Tripura,4.15,10,1810.0,1629.0
+Trisha Dubey,09835062335,anxiety,Himachal Pradesh,4.9,14,2110.0,1814.6
+Hiran Tak,03963245455,anxiety,Daman and Diu,4.91,14,2000.0,1720.0
+Samaira Saha,+915147799576,adhd,Sikkim,4.25,14,1780.0,1530.8
+Aarna Raj,07706904086,adhd,Manipur,3.13,14,1540.0,1324.4
+Kaira Ravi,5690178980,adhd,Goa,3.51,6,1590.0,1494.6
+Suhana Borde,+919579005623,odd,Haryana,3.88,10,1670.0,1503.0
+Ryan Bal,0811966983,adhd,Chhattisgarh,2.14,13,1340.0,1165.8
+Uthkarsh Kothari,8881472511,adhd,Karnataka,2.73,9,1590.0,1446.9
+Nitara Sidhu,7324144060,anxiety,Andaman and Nicobar Islands,3.44,13,1580.0,1374.6
+Pranay Chandra,+911926302135,ocd,Andaman and Nicobar Islands,3.1,10,1530.0,1377.0
+Dhanush Chand,09075206495,dyslexia,Meghalaya,3.52,11,1740.0,1548.6
+Rania Bir,06104741916,dyslexia,West Bengal,4.59,15,2000.0,1700.0
+Nitya Sinha,06805505703,autism,Uttarakhand,4.46,13,1950.0,1696.5
+Lavanya Raja,7661326870,autism,Andaman and Nicobar Islands,2.11,10,1430.0,1287.0
+Gokul Ramachandran,+919254844586,adhd,Lakshadweep,3.71,10,1830.0,1647.0
+Rasha Rau,0984387724,dyslexia,Chandigarh,3.39,13,1770.0,1539.9
+Kabir Bedi,+911262450259,ocd,Odisha,3.57,13,1740.0,1513.8
+Samiha Sidhu,6886718748,dyslexia,Karnataka,2.88,8,1570.0,1444.4
+Reyansh Maharaj,00749454449,ocd,Madhya Pradesh,3.3,6,1610.0,1513.4
+Shayak Master,7848817763,anxiety,Odisha,4.28,5,1930.0,1833.5
+Kabir Savant,3436953975,autism,Telangana,3.24,5,1590.0,1510.5
+Kaira Sagar,09043981383,odd,Manipur,3.91,10,1920.0,1728.0
+Tanya Mander,1646326875,dyslexia,Andaman and Nicobar Islands,4.64,14,2090.0,1797.4
+Riaan Thaman,02375255730,dyslexia,Uttar Pradesh,2.92,9,1450.0,1319.5
+Mohanlal Bansal,0474393380,odd,Andhra Pradesh,2.04,10,1280.0,1152.0
+Nakul Chaudhari,5696924922,autism,Punjab,4.92,10,1930.0,1737.0
+Vidur Dugal,+918171660297,ocd,Punjab,4.56,13,1870.0,1626.9
+Ivana Shah,+910032956503,odd,Rajasthan,3.61,13,1800.0,1566.0
+Shamik Saraf,6981037270,odd,Mizoram,4.26,13,1910.0,1661.7
+Indrajit Kala,8629774324,adhd,Himachal Pradesh,3.76,11,1710.0,1521.9
+Ahana  Bahl,03400736347,ocd,Maharashtra,3.54,10,1590.0,1431.0
+Hridaan Chanda,00816898153,autism,Punjab,4.15,6,1980.0,1861.2
+Zoya Madan,+917440208426,autism,Karnataka,4.4,8,1920.0,1766.4
+Kiaan Bobal,00144203982,autism,Nagaland,4.35,11,1950.0,1735.5
+Dhanush Badami,9229289849,odd,Kerala,3.01,12,1550.0,1364.0
+Kartik Konda,+914108390698,odd,Tamil Nadu,2.51,10,1570.0,1413.0
+Devansh Chowdhury,3130775804,dyslexia,Uttar Pradesh,2.73,10,1620.0,1458.0
+Rati Acharya,8341747942,odd,Telangana,4.23,9,1850.0,1683.5
+Faiyaz Shah,+913644521729,dyslexia,Manipur,4.86,10,2130.0,1917.0
+Rohan Bhat,05306490507,dyslexia,Karnataka,3.4,7,1700.0,1581.0
+Miraan Warrior,03009927673,dyslexia,Mizoram,3.71,9,1750.0,1592.5
+Raunak Jain,00963409994,anxiety,Daman and Diu,3.4,14,1630.0,1401.8
+Raunak Dara,04353142433,autism,Madhya Pradesh,3.71,9,1760.0,1601.6
+Samarth Ramanathan,+919540441080,autism,Jharkhand,4.09,5,1970.0,1871.5
+Abram Saraf,02417813009,adhd,Andaman and Nicobar Islands,4.59,10,2020.0,1818.0
+Shaan Chand,2647333823,adhd,Jharkhand,3.95,6,1770.0,1663.8
+Mamooty Buch,+917946676210,dyslexia,Jharkhand,2.41,11,1340.0,1192.6
+Aarav Kalla,+915640606715,anxiety,Puducherry,3.28,14,1700.0,1462.0
+Dharmajan Barad,06833725319,odd,Tamil Nadu,3.33,9,1630.0,1483.3
+Nitya Roy,09419713245,adhd,West Bengal,2.75,8,1500.0,1380.0
+Zoya Choudhry,07003172250,dyslexia,Punjab,4.84,8,2030.0,1867.6
+Riaan Khosla,7929925604,anxiety,Maharashtra,2.12,12,1390.0,1223.2
+Amira Das,1810326646,anxiety,Karnataka,4.5,10,2000.0,1800.0
+Anaya Ganguly,+912794227957,dyslexia,Dadra and Nagar Haveli,3.3,12,1650.0,1452.0
+Dhruv Barad,+910630094035,anxiety,Mizoram,4.34,14,1820.0,1565.2
+Nayantara Jaggi,09205046871,autism,Daman and Diu,2.56,14,1350.0,1161.0
+Kaira Chawla,03540874731,odd,Kerala,4.95,11,2080.0,1851.2
+Amira Randhawa,01933003191,ocd,Himachal Pradesh,3.15,9,1700.0,1547.0
+Jivin Rajan,09837893167,anxiety,Rajasthan,3.62,7,1680.0,1562.4
+Alia Bose,4168071872,ocd,Meghalaya,2.93,10,1540.0,1386.0
+Divyansh Kothari,00684680792,adhd,Haryana,2.5,8,1550.0,1426.0
+Misha Johal,06850958115,odd,Puducherry,3.11,5,1720.0,1634.0
+Vihaan Dayal,+916274440013,dyslexia,West Bengal,2.75,8,1540.0,1416.8
+Siya Sachdeva,02395821720,anxiety,Maharashtra,2.07,9,1300.0,1183.0
+Lavanya Deol,+915727841765,autism,Haryana,3.72,10,1730.0,1557.0
+Hiran Sagar,2654887010,autism,Uttarakhand,3.36,7,1780.0,1655.4
+Indranil Behl,07183128387,anxiety,Daman and Diu,4.42,8,1820.0,1674.4
+Rasha Walla,+911584647465,autism,Punjab,2.7,7,1540.0,1432.2
+Emir Zacharia,01202915937,odd,Andaman and Nicobar Islands,4.58,14,2050.0,1763.0
+Hiran Gill,02149599779,autism,West Bengal,3.54,14,1760.0,1513.6
+Kashvi Anne,01673636318,anxiety,Sikkim,4.82,14,2090.0,1797.4
+Neelofar Ahuja,+914864772254,adhd,Telangana,4.68,11,2050.0,1824.5
+Ritvik Lata,+915636635792,adhd,Telangana,3.11,9,1630.0,1483.3
+Anvi Kalita,+910294713604,anxiety,Daman and Diu,4.95,11,1940.0,1726.6
+Seher Jain,+915511373436,dyslexia,Chhattisgarh,3.79,12,1860.0,1636.8
+Abram Kari,9768120161,autism,Arunachal Pradesh,3.13,15,1500.0,1275.0
+Navya Mangal,08526675814,adhd,Odisha,4.29,14,1870.0,1608.2
+Samiha Sekhon,9646671858,dyslexia,Maharashtra,3.59,5,1850.0,1757.5
+Eshani Raman,7706740448,anxiety,Chandigarh,3.1,9,1490.0,1355.9
+Vaibhav Kaur,1582220854,anxiety,Haryana,3.15,13,1640.0,1426.8
+Hiran Rattan,+915443279674,dyslexia,Jharkhand,4.69,5,1970.0,1871.5
+Yuvaan Maharaj,07640935970,odd,West Bengal,3.68,6,1820.0,1710.8
+Drishya Sawhney,1901188752,adhd,Punjab,3.39,10,1720.0,1548.0
+Ayesha Thakkar,1249500932,adhd,Andhra Pradesh,4.5,5,2050.0,1947.5
+Kaira Ramesh,00337163303,adhd,Punjab,2.12,7,1380.0,1283.4
+Kabir Rout,+917627910647,autism,Kerala,2.95,12,1510.0,1328.8
+Adira Sangha,1972522886,ocd,Punjab,4.93,8,2100.0,1932.0
+Diya Som,6913652633,odd,Kerala,3.1,12,1610.0,1416.8
+Kanav Kohli,+915648845147,dyslexia,Daman and Diu,3.55,6,1770.0,1663.8
+Abram Tripathi,6380868716,anxiety,Uttarakhand,4.87,12,2090.0,1839.2
+Kismat Dey,0440896325,dyslexia,Daman and Diu,4.33,6,1910.0,1795.4
+Madhup Tandon,+917521717182,odd,Goa,4.51,10,1830.0,1647.0
+Ela Deol,+919895127267,anxiety,Karnataka,2.82,8,1610.0,1481.2
+Zain Kant,8387153390,autism,Jharkhand,2.9,15,1640.0,1394.0
+Ayesha Subramanian,8426743262,autism,Rajasthan,4.97,10,2050.0,1845.0
+Jhanvi Lanka,+916972509630,dyslexia,Manipur,2.16,8,1480.0,1361.6
+Dishani Datta,+910724527829,ocd,Assam,2.45,6,1330.0,1250.2
+Vritika Kala,01996764387,autism,Andaman and Nicobar Islands,3.38,10,1640.0,1476.0
+Jivika Swaminathan,01110948913,odd,Tamil Nadu,3.62,6,1650.0,1551.0
+Rania Walla,0197399272,adhd,Karnataka,2.33,13,1370.0,1191.9
+Seher Sarma,03869460931,ocd,Assam,2.51,10,1390.0,1251.0
+Kimaya Dixit,1502679777,autism,Sikkim,3.1,14,1630.0,1401.8
+Kiara Goel,9038604487,ocd,Madhya Pradesh,4.09,10,1790.0,1611.0
+Dharmajan Agate,4483100040,odd,Himachal Pradesh,4.92,13,2110.0,1835.7
+Hazel Sama,3477135553,odd,Andhra Pradesh,4.19,11,1760.0,1566.4
+Mohanlal Sethi,0805691196,adhd,Uttar Pradesh,4.89,14,2080.0,1788.8
+Indranil Karan,09661553871,ocd,Jharkhand,4.76,11,1970.0,1753.3
+Divij Mane,+916781522896,ocd,Karnataka,3.01,12,1500.0,1320.0
+Sahil Bora,04026872160,odd,Dadra and Nagar Haveli,3.57,9,1650.0,1501.5
+Drishya Raval,0324511976,ocd,Madhya Pradesh,2.2,5,1320.0,1254.0
+Keya Yogi,3010228040,autism,West Bengal,3.71,7,1730.0,1608.9
+Yuvraj  Behl,07486340868,odd,Himachal Pradesh,4.15,7,1770.0,1646.1
+Hridaan Baral,+910141989977,adhd,Gujarat,2.81,12,1530.0,1346.4
+Vardaniya Sharma,+919738980756,dyslexia,Delhi,4.64,9,2050.0,1865.5
+Seher Vig,+910532139600,autism,Mizoram,4.61,9,1880.0,1710.8
+Anika Mahal,07967494255,ocd,Delhi,4.25,13,1970.0,1713.9
+Rhea Gara,+912224013848,ocd,Puducherry,2.08,11,1360.0,1210.4
+Nirvi Hari,+913224735810,autism,Kerala,4.16,10,1990.0,1791.0
+Yakshit Brar,2282793215,odd,Maharashtra,2.08,9,1380.0,1255.8
+Nayantara Sen,+917746241637,ocd,Gujarat,3.11,12,1520.0,1337.6
+Hunar Halder,7296866684,ocd,Dadra and Nagar Haveli,3.3,15,1690.0,1436.5
+Vardaniya Hans,0553745085,anxiety,Karnataka,2.21,7,1290.0,1199.7
+Manjari Gandhi,5314529797,autism,Goa,4.49,8,1990.0,1830.8
+Seher Mahal,08171861708,dyslexia,Arunachal Pradesh,2.63,6,1440.0,1353.6
+Prisha Sunder,3129422555,dyslexia,Assam,3.24,7,1740.0,1618.2
+Fateh Tata,4529221210,dyslexia,Lakshadweep,2.51,13,1460.0,1270.2
+Aayush Rout,06821297443,ocd,Chandigarh,3.81,14,1820.0,1565.2
+Tejas Doshi,4020954513,adhd,Himachal Pradesh,3.96,15,1810.0,1538.5
+Pranay Shah,3516948901,ocd,Arunachal Pradesh,3.46,5,1700.0,1615.0
+Aarav Sankaran,6764131190,adhd,Manipur,4.88,10,2150.0,1935.0
+Mehul Basak,+919174064015,anxiety,Chhattisgarh,2.54,9,1400.0,1274.0
+Ahana  Walla,+919893855211,anxiety,Punjab,3.23,13,1720.0,1496.4
+Manjari Sarraf,+912708715795,autism,Uttar Pradesh,4.53,12,1870.0,1645.6
+Seher Sane,+919366775107,adhd,Jharkhand,2.95,7,1640.0,1525.2
+Ayesha Kuruvilla,06515420946,odd,Andaman and Nicobar Islands,4.65,8,1990.0,1830.8
+Pranay Chauhan,03016739749,anxiety,Punjab,4.03,10,1890.0,1701.0
+Tushar Bhatti,+918547063332,autism,Odisha,3.66,11,1650.0,1468.5
+Adah Gour,+919775001634,dyslexia,Manipur,2.25,11,1510.0,1343.9
+Kaira Sood,6251504764,odd,Assam,2.93,13,1520.0,1322.4
+Kanav Sama,07620307992,autism,Chhattisgarh,2.09,6,1370.0,1287.8
+Mamooty Rana,1054289578,anxiety,Dadra and Nagar Haveli,4.48,11,1980.0,1762.2
+Inaaya  Som,7898500644,adhd,Dadra and Nagar Haveli,3.15,12,1640.0,1443.2
+Anay Behl,+912142090033,dyslexia,Meghalaya,2.98,7,1520.0,1413.6
+Renee Khanna,9673845720,autism,Haryana,3.87,7,1800.0,1674.0
+Divij Kapadia,9996383579,odd,Odisha,4.19,10,1830.0,1647.0
+Anvi Hegde,+911655380068,autism,Nagaland,4.69,11,1890.0,1682.1
+Purab Ray,6399647266,autism,Andhra Pradesh,3.8,12,1850.0,1628.0
+Yuvraj  Aurora,3964482252,autism,Haryana,4.08,12,1740.0,1531.2
+Kiara Loke,4007784500,odd,Nagaland,4.18,8,1780.0,1637.6
+Azad Grover,+910573144215,dyslexia,Karnataka,4.64,7,1870.0,1739.1
+Anahita Batta,00766317315,ocd,Andhra Pradesh,2.36,7,1430.0,1329.9
+Aayush Raja,8504953923,adhd,Sikkim,3.42,6,1760.0,1654.4
+Hansh Jaggi,+912266525018,anxiety,Puducherry,2.4,11,1550.0,1379.5
+Yakshit Konda,01674317172,ocd,Tripura,2.23,12,1400.0,1232.0
+Lakshit Gole,08319747835,dyslexia,Dadra and Nagar Haveli,3.24,15,1520.0,1292.0
+Aniruddh Ghose,04136289303,anxiety,Maharashtra,2.5,6,1400.0,1316.0
+Aaina Varughese,5372787988,adhd,Rajasthan,3.02,12,1640.0,1443.2
+Emir Ahluwalia,+916947222308,odd,Madhya Pradesh,2.7,7,1410.0,1311.3
+Prisha Kapur,+910861121338,anxiety,Dadra and Nagar Haveli,3.93,8,1690.0,1554.8
+Kashvi Dhillon,+919666959313,adhd,Daman and Diu,4.0,10,1790.0,1611.0
+Jayan Rattan,4620084828,dyslexia,Goa,3.96,12,1870.0,1645.6
+Ahana  Sarna,+910386023161,anxiety,Arunachal Pradesh,2.14,14,1470.0,1264.2
+Shanaya Baria,2322311719,odd,Maharashtra,3.16,8,1540.0,1416.8
+Elakshi Hayer,+916035222194,odd,Mizoram,3.52,7,1660.0,1543.8
+Jivin Comar,5320257629,dyslexia,Daman and Diu,3.97,5,1860.0,1767.0
+Ojas Bumb,07825362193,odd,Uttarakhand,4.67,9,2040.0,1856.4
+Khushi Lad,06163338856,adhd,Manipur,4.35,10,1890.0,1701.0
+Jivin Dubey,08134554017,autism,Maharashtra,2.09,12,1410.0,1240.8
+Emir Rajan,8438519570,autism,Uttarakhand,2.87,7,1460.0,1357.8
+Divit Atwal,09621593091,dyslexia,Lakshadweep,2.18,12,1340.0,1179.2
+Vihaan Dubey,+919303805876,odd,Lakshadweep,4.56,15,2070.0,1759.5
+Gatik Buch,02681191805,autism,Daman and Diu,3.16,11,1710.0,1521.9
+Ishita Tella,+914027189169,autism,Uttar Pradesh,2.91,9,1610.0,1465.1
+Sana Ratti,+919784357207,anxiety,Manipur,4.09,11,1920.0,1708.8
+Siya Seshadri,+918582948028,ocd,Meghalaya,3.95,13,1840.0,1600.8
+Shlok Wagle,9171320783,anxiety,Arunachal Pradesh,3.86,11,1900.0,1691.0
+Taimur Bhat,09417015821,adhd,Odisha,2.71,11,1520.0,1352.8
+Samar Kunda,+914168501078,adhd,Nagaland,4.82,8,2150.0,1978.0
+Aniruddh Dhingra,3782482990,autism,Uttarakhand,3.25,11,1560.0,1388.4
+Aniruddh Krishnan,+915861770681,adhd,Chandigarh,2.22,13,1340.0,1165.8
+Vidur Grewal,+915688869827,anxiety,Andaman and Nicobar Islands,4.59,12,1910.0,1680.8
+Taimur Saha,01931632065,ocd,Telangana,3.39,15,1640.0,1394.0
+Hrishita Buch,07157466592,ocd,Rajasthan,4.04,9,1850.0,1683.5
+Prerak Grewal,9702392133,autism,Chhattisgarh,4.99,12,2090.0,1839.2
+Keya Mander,7583879518,dyslexia,Andaman and Nicobar Islands,3.92,12,1740.0,1531.2
+Pranay Kala,02971825416,odd,Assam,2.18,13,1430.0,1244.1
+Mannat Dayal,+914345989613,ocd,Arunachal Pradesh,4.72,6,2130.0,2002.2
+Elakshi Venkatesh,+910856960399,ocd,Uttar Pradesh,2.67,10,1470.0,1323.0
+Saanvi Doshi,05520998303,autism,Dadra and Nagar Haveli,4.6,14,2010.0,1728.6
+Miraan Sathe,01271865792,odd,Manipur,3.32,10,1730.0,1557.0
+Zoya Banik,01262575862,odd,Punjab,3.42,14,1690.0,1453.4
+Aarna Rout,+915015417962,adhd,Kerala,4.25,10,1770.0,1593.0
+Kimaya Lata,+918344771720,adhd,Jharkhand,3.74,14,1740.0,1496.4
+Vedika Mane,+910565888910,adhd,Uttarakhand,2.92,11,1540.0,1370.6
+Ivan Viswanathan,+918098903289,adhd,Assam,4.45,7,1850.0,1720.5
+Damini Kannan,03109107039,ocd,Manipur,2.63,7,1480.0,1376.4
+Dishani Thaker,7589122916,anxiety,Puducherry,2.37,9,1380.0,1255.8
+Vritika Johal,+916638797721,ocd,Puducherry,2.96,7,1580.0,1469.4
+Siya Jani,+918045266589,ocd,Daman and Diu,4.87,8,2140.0,1968.8
+Jayan Sur,01948872468,adhd,Gujarat,4.47,14,1860.0,1599.6
+Hazel Gandhi,2003558064,odd,Daman and Diu,4.32,10,1940.0,1746.0
+Ela Chad,05225801222,anxiety,Arunachal Pradesh,2.33,8,1480.0,1361.6
+Akarsh Sachdeva,+912619558788,adhd,Rajasthan,2.2,8,1420.0,1306.4
+Dishani Chaudhry,+916118702988,odd,West Bengal,4.65,14,2070.0,1780.2
+Hunar Gera,6469603973,dyslexia,Rajasthan,3.57,9,1790.0,1628.9
+Miraya Johal,+914547594880,ocd,Odisha,4.5,11,2030.0,1806.7
+Vritika Zachariah,6623304662,odd,Tripura,4.4,10,1950.0,1755.0
+Hazel Khatri,0195313944,odd,Sikkim,3.75,15,1700.0,1445.0
+Rati Vasa,03522938635,dyslexia,Telangana,4.15,6,1760.0,1654.4
+Keya Sanghvi,02892826838,adhd,Puducherry,2.35,12,1510.0,1328.8
+Diya Thakur,06470068543,anxiety,Sikkim,2.01,7,1290.0,1199.7
+Shanaya Sastry,+913735718534,odd,West Bengal,2.03,11,1310.0,1165.9
+Neelofar Sachar,+912153089366,anxiety,Puducherry,4.83,14,1920.0,1651.2
+Diya Shankar,+918532649890,adhd,Haryana,4.6,9,1910.0,1738.1
+Anay Sani,04460803461,dyslexia,Puducherry,3.2,15,1660.0,1411.0
+Ryan Varty,+915041165598,dyslexia,Puducherry,4.17,5,1930.0,1833.5
+Tushar Wason,02482277528,ocd,Lakshadweep,2.37,14,1520.0,1307.2
+Vidur Kala,+912682600919,adhd,West Bengal,4.0,12,1950.0,1716.0
+Pari Khatri,+913410914674,odd,Maharashtra,2.1,7,1450.0,1348.5
+Nitya Karpe,07976604478,anxiety,Odisha,2.45,12,1370.0,1205.6
+Khushi Sarin,09271664206,anxiety,Madhya Pradesh,3.04,11,1590.0,1415.1
+Mamooty Saraf,+915054744523,odd,Assam,3.42,6,1700.0,1598.0
+Navya Bhatia,8951647527,anxiety,Andaman and Nicobar Islands,4.89,9,1930.0,1756.3
+Parinaaz Jain,05561870149,odd,Tripura,4.3,6,1900.0,1786.0
+Nirvi Toor,02580063659,autism,Chhattisgarh,3.92,11,1790.0,1593.1
+Kiara Kulkarni,+910153534540,adhd,Rajasthan,3.16,13,1490.0,1296.3
+Raghav Sathe,2942863215,ocd,Kerala,3.21,8,1530.0,1407.6
+Uthkarsh Savant,+916105883152,odd,Goa,3.71,11,1700.0,1513.0
+Kashvi Baria,05567339641,autism,Daman and Diu,3.62,10,1840.0,1656.0
+Baiju Bhakta,04942484030,odd,Chhattisgarh,4.91,7,2010.0,1869.3
+Azad Tella,+915990982190,autism,Andhra Pradesh,3.22,12,1590.0,1399.2
+Tejas Borra,+910921145072,anxiety,Goa,4.44,8,2020.0,1858.4
+Aradhya Upadhyay,+911691581955,anxiety,Chhattisgarh,3.79,9,1720.0,1565.2
+Vanya Bali,00989095957,dyslexia,Daman and Diu,2.46,14,1490.0,1281.4
+Yashvi Gill,1687499256,adhd,Kerala,4.47,12,2040.0,1795.2
+Samaira Hayer,+915922546168,anxiety,Uttar Pradesh,2.48,14,1400.0,1204.0
+Hunar Kapoor,6225534648,anxiety,Daman and Diu,3.37,12,1730.0,1522.4
+Faiyaz Warrior,+910374154151,ocd,Andhra Pradesh,2.18,10,1470.0,1323.0
+Sahil Char,7168842528,dyslexia,Tamil Nadu,2.68,6,1590.0,1494.6
+Madhav Datta,+919593048876,anxiety,West Bengal,4.35,12,2010.0,1768.8
+Armaan Ramaswamy,07930239342,adhd,Chandigarh,3.19,7,1550.0,1441.5
+Advik Chandran,1003199186,autism,Kerala,4.81,6,2080.0,1955.2
+Aarna Setty,8974291273,ocd,Jharkhand,2.97,9,1640.0,1492.4
+Samarth Agate,00142108299,anxiety,Punjab,4.36,15,1970.0,1674.5
+Jivin Kar,6004747491,anxiety,Tamil Nadu,4.63,14,2080.0,1788.8
+Shalv Wali,+917353969769,anxiety,Sikkim,3.64,5,1790.0,1700.5
+Uthkarsh Bhalla,7356272515,anxiety,Bihar,3.48,12,1590.0,1399.2
+Hiran Dada,4590450936,odd,Nagaland,3.04,10,1600.0,1440.0
+Kartik Master,08342413114,ocd,Andaman and Nicobar Islands,2.28,14,1300.0,1118.0
+Alia Shroff,01443009339,anxiety,Himachal Pradesh,2.73,7,1620.0,1506.6
+Purab Sha,+918558592617,ocd,Rajasthan,2.11,15,1370.0,1164.5
+Azad Shankar,01529817078,odd,Manipur,2.02,8,1410.0,1297.2
+Tushar Rao,6172547823,dyslexia,Tamil Nadu,4.26,9,1920.0,1747.2
+Gokul Chana,09784962089,dyslexia,Daman and Diu,2.01,8,1250.0,1150.0
+Armaan Chahal,+912404587305,odd,Himachal Pradesh,4.98,8,2040.0,1876.8
+Nitara Sura,8072784153,adhd,Haryana,3.55,8,1760.0,1619.2
+Tejas Balay,8799565874,autism,Kerala,2.29,5,1360.0,1292.0
+Ritvik Dash,03052200897,dyslexia,Dadra and Nagar Haveli,4.41,14,1930.0,1659.8
+Diya Mander,4818871983,autism,Jharkhand,3.03,13,1640.0,1426.8
+Ivan Thaman,6512746934,odd,Uttarakhand,2.48,10,1550.0,1395.0
+Anya Chanda,00620060004,anxiety,Sikkim,2.14,14,1270.0,1092.2
+Advik Sachdeva,06242151420,anxiety,Bihar,2.02,8,1340.0,1232.8
+Khushi Sachdev,7845403578,odd,Maharashtra,4.84,13,2050.0,1783.5
+Badal Shan,00560020202,adhd,Telangana,2.37,9,1500.0,1365.0
+Suhana Viswanathan,02764867563,odd,Puducherry,2.98,7,1450.0,1348.5
+Kartik Barman,05359167641,anxiety,Puducherry,4.78,8,1980.0,1821.6
+Reyansh Jayaraman,00224926868,adhd,Puducherry,3.79,14,1730.0,1487.8
+Nayantara Suri,4619246279,odd,Sikkim,2.32,15,1360.0,1156.0
+Parinaaz Kumar,+911006093439,autism,Himachal Pradesh,4.38,13,1820.0,1583.4
+Kashvi Lata,+913240405685,ocd,Uttar Pradesh,4.83,11,2050.0,1824.5
+Suhana Mann,09192175471,ocd,Himachal Pradesh,3.6,11,1840.0,1637.6
+Aarav Kadakia,09526630781,ocd,Maharashtra,3.78,14,1810.0,1556.6
+Baiju Ratta,07933130144,ocd,Puducherry,3.53,9,1790.0,1628.9
+Charvi Desai,06696350959,adhd,Chhattisgarh,3.4,12,1550.0,1364.0
+Kanav Shetty,6686538731,autism,Jharkhand,2.57,11,1390.0,1237.1
+Zeeshan Thaman,+911580677105,adhd,Mizoram,3.92,12,1800.0,1584.0
+Kimaya Mahal,+919546263740,adhd,Maharashtra,3.62,7,1780.0,1655.4
+Shray Dewan,7725964965,odd,Goa,2.07,7,1240.0,1153.2
+Madhav Chauhan,+913503185078,autism,Andaman and Nicobar Islands,3.53,7,1620.0,1506.6
+Hunar Deshpande,+916397237351,adhd,Lakshadweep,2.28,10,1370.0,1233.0
+Sara Comar,+912712649785,dyslexia,Karnataka,4.22,6,1830.0,1720.2
+Arnav Reddy,01042413584,anxiety,Madhya Pradesh,3.53,15,1670.0,1419.5
+Priyansh Jayaraman,+916544214767,odd,Uttarakhand,4.35,11,1930.0,1717.7
+Damini Kamdar,+915230403861,ocd,Jharkhand,2.7,6,1540.0,1447.6
+Yasmin Ben,5569876624,ocd,Bihar,4.3,8,1890.0,1738.8
+Himmat Sridhar,+915433400461,adhd,Himachal Pradesh,2.6,11,1530.0,1361.7
+Rohan Srinivasan,+914239974285,autism,Tamil Nadu,3.27,7,1520.0,1413.6
+Suhana Bahri,+919882318025,dyslexia,Odisha,4.2,11,1980.0,1762.2
+Vanya Vora,2235971148,anxiety,Delhi,2.64,10,1540.0,1386.0
+Shalv Grewal,05328730861,ocd,Mizoram,2.77,12,1640.0,1443.2
+Ela Sura,1452577308,anxiety,Uttar Pradesh,3.9,9,1800.0,1638.0
+Fateh Kanda,07914997723,dyslexia,Meghalaya,3.88,7,1830.0,1701.9
+Taimur Bakshi,09659759344,odd,Kerala,4.36,9,2010.0,1829.1
+Sahil Gole,+914402056727,adhd,Kerala,4.94,10,2050.0,1845.0
+Seher Kadakia,08075714835,ocd,Karnataka,2.89,12,1430.0,1258.4
+Heer Lata,2932624100,autism,Arunachal Pradesh,4.66,7,2090.0,1943.7
+Divyansh Taneja,4413280113,odd,Haryana,3.72,14,1640.0,1410.4
+Gatik Chadha,+910212868508,odd,Rajasthan,3.29,14,1740.0,1496.4
+Rohan Wason,9145547543,dyslexia,Punjab,2.82,9,1500.0,1365.0
+Badal Sachdev,1359363212,autism,Nagaland,4.81,6,2100.0,1974.0
+Yuvraj  Dani,+918924556112,anxiety,Haryana,2.37,6,1480.0,1391.2
+Kismat Balay,3149266930,anxiety,Uttar Pradesh,3.49,6,1790.0,1682.6
+Rasha Bora,+916503518074,dyslexia,Karnataka,3.3,10,1660.0,1494.0
+Vidur Loke,9305826519,adhd,Haryana,4.88,10,2110.0,1899.0
+Yasmin Manne,02105920830,autism,Jharkhand,3.34,8,1690.0,1554.8
+Vanya Tailor,+916594475179,autism,Arunachal Pradesh,2.8,13,1430.0,1244.1
+Vihaan Loke,05462377975,anxiety,Haryana,2.01,11,1330.0,1183.7
+Chirag Magar,05053734228,adhd,Tripura,3.84,11,1800.0,1602.0
+Dhanush Rege,+915290864115,ocd,Andaman and Nicobar Islands,3.24,5,1750.0,1662.5
+Heer Mani,+913880873282,anxiety,Kerala,4.27,8,1810.0,1665.2
+Chirag Chaudry,+915267328068,anxiety,Odisha,4.83,10,2110.0,1899.0
+Ayesha Deol,+918025042867,ocd,Uttar Pradesh,4.26,12,1770.0,1557.6
+Renee Soni,03689163975,ocd,Tripura,4.33,14,1990.0,1711.4
+Tanya Dugal,7063731431,ocd,Uttar Pradesh,3.14,7,1660.0,1543.8
+Anahita Kannan,04142379071,ocd,Karnataka,3.17,10,1620.0,1458.0
+Eshani Samra,+911456063015,odd,Rajasthan,4.04,13,1760.0,1531.2
+Kashvi Issac,+910046825031,ocd,Tamil Nadu,4.89,13,1970.0,1713.9
+Abram Solanki,01515192984,adhd,Lakshadweep,3.9,12,1800.0,1584.0
+Bhamini Varghese,4705584121,ocd,Kerala,2.03,11,1240.0,1103.6
+Ehsaan Ramakrishnan,03278433881,odd,Delhi,2.73,6,1580.0,1485.2
+Tarini Aurora,+915325420456,dyslexia,Sikkim,3.34,11,1740.0,1548.6
+Lakshit Mangal,+914090206444,ocd,Delhi,3.7,14,1830.0,1573.8
+Anay Mander,6807491599,dyslexia,Karnataka,3.79,12,1870.0,1645.6
+Mehul Tella,08364826092,ocd,Chandigarh,4.66,14,1990.0,1711.4
+Purab Bajwa,3729872556,odd,Puducherry,4.72,9,2000.0,1820.0
+Rasha Guha,+918462715802,ocd,Mizoram,4.16,5,1870.0,1776.5
+Yuvaan Ramachandran,+910308335409,adhd,Chhattisgarh,2.96,9,1680.0,1528.8
+Jayan Keer,+916067550177,anxiety,Goa,3.24,10,1740.0,1566.0
+Samiha Bains,02772536690,anxiety,Madhya Pradesh,4.49,9,2050.0,1865.5
+Kiaan Bobal,+918325840311,adhd,Chhattisgarh,2.02,12,1340.0,1179.2
+Anya Swamy,02812943676,autism,Delhi,2.7,13,1580.0,1374.6
+Badal Joshi,+918427785582,dyslexia,Goa,4.35,5,2010.0,1909.5
+Shayak Chaudhuri,6217320181,autism,Bihar,2.83,10,1520.0,1368.0
+Shlok De,02999247939,ocd,Goa,2.83,15,1650.0,1402.5
+Navya Karnik,05836770205,anxiety,West Bengal,3.66,7,1620.0,1506.6
+Divyansh Bahl,7072427888,anxiety,Sikkim,2.43,7,1500.0,1395.0
+Arnav Korpal,08155778449,odd,Mizoram,3.52,10,1730.0,1557.0
+Sara Sharaf,04929434355,autism,Nagaland,2.01,14,1230.0,1057.8
+Azad Chatterjee,05189022389,adhd,Chhattisgarh,2.84,10,1500.0,1350.0
+Anahi Kumar,01705846711,autism,Dadra and Nagar Haveli,2.7,14,1610.0,1384.6
+Himmat Arora,2250572679,ocd,Odisha,2.73,7,1500.0,1395.0
+Faiyaz Srivastava,02257441696,ocd,Meghalaya,3.93,15,1910.0,1623.5
+Aarna Shah,+912355436926,dyslexia,Himachal Pradesh,3.34,13,1540.0,1339.8
+Vritika Subramaniam,+918720683917,ocd,Bihar,3.24,12,1600.0,1408.0
+Nehmat Halder,09899035055,odd,Arunachal Pradesh,3.72,7,1720.0,1599.6
+Adira Thaker,01028992904,ocd,Puducherry,2.55,6,1490.0,1400.6
+Raunak Dash,09221016027,odd,Odisha,2.59,8,1410.0,1297.2
+Hridaan Khatri,00343364825,odd,Lakshadweep,4.24,10,1850.0,1665.0
+Ritvik Bajaj,+914925935103,odd,Himachal Pradesh,4.95,7,2160.0,2008.8
+Piya Chaudry,08751524897,ocd,Manipur,2.01,11,1290.0,1148.1
+Mohanlal Cheema,+916497616913,dyslexia,Haryana,4.46,12,1870.0,1645.6
+Lavanya Sen,06421629329,anxiety,Nagaland,2.34,7,1480.0,1376.4
+Yashvi Bahl,+912583936458,autism,Uttar Pradesh,4.97,15,2150.0,1827.5
+Elakshi Bhardwaj,+911243879176,adhd,Arunachal Pradesh,4.74,11,1920.0,1708.8
+Kiara Basak,+915640206618,dyslexia,Arunachal Pradesh,2.17,10,1370.0,1233.0
+Kartik Bala,00207150306,dyslexia,Himachal Pradesh,2.11,11,1380.0,1228.2
+Rhea Singhal,+914233599935,dyslexia,Odisha,3.94,12,1700.0,1496.0
+Kanav Anand,09312532529,dyslexia,Rajasthan,2.39,6,1470.0,1381.8
+Saira Keer,+918479370331,odd,Chandigarh,2.24,11,1350.0,1201.5
+Divit Sami,03870324803,autism,Odisha,3.1,9,1580.0,1437.8
+Seher Dewan,6244729529,anxiety,Nagaland,2.13,9,1480.0,1346.8
+Aarav Sibal,+918293739880,dyslexia,Madhya Pradesh,4.34,10,2020.0,1818.0
+Misha Bahl,+911476613326,autism,Chandigarh,4.03,8,1750.0,1610.0
+Amani Kalita,08673598685,dyslexia,Meghalaya,3.52,6,1810.0,1701.4
+Aarush Sarma,+912930626090,ocd,Meghalaya,2.0,6,1390.0,1306.6
+Lavanya Lata,+915503570869,dyslexia,Tripura,3.41,12,1610.0,1416.8
+Prisha Sachdeva,06655982264,odd,Goa,3.55,9,1600.0,1456.0
+Samarth Ramakrishnan,2536993669,adhd,Gujarat,2.19,6,1330.0,1250.2
+Keya Gandhi,01083879412,autism,Sikkim,2.79,12,1590.0,1399.2
+Nayantara Ghosh,03682921489,adhd,Tamil Nadu,2.38,8,1410.0,1297.2
+Dhanuk Rajagopalan,+913728492369,odd,Gujarat,2.49,9,1440.0,1310.4
+Mamooty Mani,02635668513,odd,Kerala,2.51,5,1400.0,1330.0
+Manjari Zachariah,+916502740684,dyslexia,Himachal Pradesh,4.82,12,1960.0,1724.8
+Rati Chaudhry,02763383236,anxiety,Goa,4.47,10,1950.0,1755.0
+Onkar Deshmukh,07540746173,autism,Sikkim,4.36,13,1820.0,1583.4
+Romil Sachar,04573136042,adhd,Gujarat,2.01,14,1340.0,1152.4
+Rohan Raval,1100934397,dyslexia,Karnataka,4.33,7,1980.0,1841.4
+Kaira Hans,3707252177,odd,Tamil Nadu,4.68,10,1890.0,1701.0
+Diya Badami,00929035753,adhd,Maharashtra,3.63,13,1640.0,1426.8
+Yuvaan Edwin,6900410980,anxiety,Uttar Pradesh,3.17,6,1710.0,1607.4
+Navya Gole,05044587279,autism,Andhra Pradesh,4.8,14,2080.0,1788.8
+Tejas Mann,1735977121,dyslexia,Kerala,4.05,12,1900.0,1672.0
+Romil Agarwal,+914116362916,odd,Rajasthan,3.43,5,1770.0,1681.5
+Nitya Ramesh,7135039461,dyslexia,Delhi,4.19,9,1790.0,1628.9
+Yakshit Dhaliwal,5616166225,ocd,Rajasthan,2.45,11,1470.0,1308.3
+Vardaniya Dugal,+917944390608,dyslexia,Haryana,4.42,14,1810.0,1556.6
+Nirvi Konda,7031048561,dyslexia,Uttarakhand,4.03,13,1930.0,1679.1
+Mohanlal Tandon,9139865890,anxiety,Andhra Pradesh,3.49,10,1800.0,1620.0
+Aarna Krish,7773386778,ocd,Mizoram,4.98,13,2080.0,1809.6
+Anika Madan,4640961374,ocd,Manipur,4.74,7,2040.0,1897.2
+Yuvraj  Lad,+918582532238,adhd,Manipur,4.94,6,1940.0,1823.6
+Aarush Khare,9055385048,anxiety,West Bengal,3.2,12,1580.0,1390.4
+Shalv Varty,+918058660733,anxiety,Odisha,3.96,15,1780.0,1513.0
+Sumer Bath,06707953102,ocd,Maharashtra,4.13,7,1800.0,1674.0
+Tushar Yogi,8915813367,dyslexia,West Bengal,4.87,6,2110.0,1983.4
+Jayan Konda,+917478631052,ocd,Lakshadweep,4.4,7,1950.0,1813.5
+Madhav Ramesh,07417449054,odd,Telangana,2.68,11,1480.0,1317.2
+Akarsh Lanka,06179590440,dyslexia,Assam,3.34,11,1720.0,1530.8
+Romil Din,05932340366,odd,Madhya Pradesh,3.27,5,1610.0,1529.5
+Nitya Kanda,+913690029623,autism,Goa,2.99,10,1590.0,1431.0
+Mehul Shan,07211591547,odd,West Bengal,2.94,9,1510.0,1374.1
+Jayan Varma,4077111057,odd,Lakshadweep,4.46,12,1950.0,1716.0
+Alia Khare,+918337784725,ocd,Bihar,4.51,6,1990.0,1870.6
+Shanaya Chander,07807202586,anxiety,Rajasthan,2.11,11,1320.0,1174.8
+Arnav Kale,08409398745,autism,Karnataka,3.08,9,1480.0,1346.8
+Ahana  Sachdeva,8955527570,odd,Sikkim,2.85,13,1550.0,1348.5
+Rati Kurian,09354630814,dyslexia,Meghalaya,4.32,12,1780.0,1566.4
+Mishti Ramachandran,+913037101743,autism,Delhi,4.27,15,1910.0,1623.5
+Charvi Doctor,3317779540,odd,Sikkim,3.01,5,1510.0,1434.5
+Armaan Garde,7180898042,ocd,Sikkim,4.32,8,1860.0,1711.2
+Aradhya Raval,5603988647,anxiety,Karnataka,2.15,7,1240.0,1153.2
+Keya Iyer,07286695666,adhd,Andhra Pradesh,2.62,14,1580.0,1358.8
+Sana Kalla,02845625682,odd,Lakshadweep,3.14,11,1680.0,1495.2
+Nirvi Lal,1003004838,ocd,Puducherry,2.29,9,1360.0,1237.6
+Vidur Varma,+917415256099,odd,Madhya Pradesh,2.42,10,1390.0,1251.0
+Stuvan Tata,+918278898170,anxiety,Meghalaya,2.51,14,1540.0,1324.4
+Ivana Sethi,9120631979,ocd,Telangana,4.75,12,1970.0,1733.6
+Saanvi Raman,+911370076639,ocd,Rajasthan,4.74,10,2130.0,1917.0
+Prisha Shenoy,09797263152,dyslexia,Delhi,4.16,14,1840.0,1582.4
+Nirvi Kulkarni,06813964520,adhd,Rajasthan,2.1,6,1430.0,1344.2
+Anya Atwal,8305335151,anxiety,Sikkim,3.86,5,1860.0,1767.0
+Samarth Borde,05148701681,dyslexia,Andaman and Nicobar Islands,2.84,11,1450.0,1290.5
+Adah Halder,+916916424044,ocd,Lakshadweep,4.46,6,1820.0,1710.8
+Ehsaan Sunder,+916346841420,adhd,Odisha,4.18,9,1890.0,1719.9
+Yashvi Gala,8643772177,adhd,Andaman and Nicobar Islands,3.06,5,1590.0,1510.5
+Shayak Choudhury,03814189801,anxiety,Chandigarh,4.54,12,2040.0,1795.2
+Nitya Deol,0827101121,autism,Nagaland,4.95,13,2140.0,1861.8
+Mahika Dave,4366590449,adhd,Mizoram,4.17,7,1860.0,1729.8
+Ryan Deep,3993408898,ocd,Dadra and Nagar Haveli,2.98,8,1490.0,1370.8
+Inaaya  Karpe,0017009265,dyslexia,Bihar,2.02,15,1360.0,1156.0
+Miraya Sathe,+915007434381,anxiety,Gujarat,4.47,10,1860.0,1674.0
+Amani Tara,6734274730,autism,Haryana,2.55,9,1500.0,1365.0
+Shalv Gala,4224789891,odd,Telangana,2.24,9,1430.0,1301.3
+Heer Kumar,4203600613,odd,Tamil Nadu,4.34,12,1930.0,1698.4
+Mishti Kari,1951126308,autism,Maharashtra,2.51,7,1510.0,1404.3
+Yuvaan Bajaj,06916077093,adhd,Chandigarh,2.1,12,1340.0,1179.2
+Yakshit Keer,+913743622432,odd,West Bengal,3.99,5,1710.0,1624.5
+Vritika Gopal,9537821964,dyslexia,Telangana,4.13,13,1940.0,1687.8
+Shray Thakur,+918046349511,autism,Kerala,3.71,5,1670.0,1586.5
+Riaan Buch,8465676160,adhd,Delhi,2.5,14,1390.0,1195.4
+Hiran Dey,9408674666,ocd,West Bengal,2.72,6,1600.0,1504.0
+Yuvraj  Shetty,5318200803,odd,Arunachal Pradesh,2.11,11,1380.0,1228.2
+Mishti Rastogi,00243280002,anxiety,Madhya Pradesh,4.72,7,1960.0,1822.8
+Tejas Chowdhury,+915523874920,autism,Telangana,2.32,13,1410.0,1226.7
+Alia Rastogi,+918447777254,anxiety,Karnataka,3.43,6,1670.0,1569.8
+Samaira Comar,3085791486,adhd,Andaman and Nicobar Islands,2.39,12,1380.0,1214.4
+Indrans Chowdhury,+914556363295,ocd,Chandigarh,4.71,12,2090.0,1839.2
+Kiara Dixit,+913776516928,odd,Goa,4.42,14,1920.0,1651.2
+Hunar Bhandari,09021949394,adhd,Nagaland,3.58,8,1650.0,1518.0
+Anika Ganesh,2399567848,adhd,Manipur,3.24,6,1640.0,1541.6
+Piya Sahni,09051673552,autism,Madhya Pradesh,4.93,5,2100.0,1995.0
+Aaina Chacko,+919112204657,dyslexia,Karnataka,2.47,11,1370.0,1219.3
+Jhanvi Das,1624197364,ocd,Uttar Pradesh,4.53,11,2050.0,1824.5
+Akarsh Krishnamurthy,8285562761,ocd,West Bengal,4.44,9,2030.0,1847.3
+Armaan Sheth,08479428372,adhd,Sikkim,2.9,11,1450.0,1290.5
+Anahita Bakshi,+916555007996,odd,Chhattisgarh,2.84,11,1550.0,1379.5
+Elakshi Kapadia,5386710128,adhd,Manipur,2.69,5,1570.0,1491.5
+Shlok Dhingra,+914895692242,anxiety,Himachal Pradesh,4.56,10,2070.0,1863.0
+Anika Dhillon,3581347973,ocd,Uttar Pradesh,2.71,13,1430.0,1244.1
+Eshani Kala,+912015279116,ocd,Dadra and Nagar Haveli,3.56,5,1700.0,1615.0
+Zeeshan Sengupta,+919305431669,anxiety,West Bengal,4.05,13,1830.0,1592.1
+Urvi Boase,+914926225765,anxiety,Andaman and Nicobar Islands,3.44,11,1570.0,1397.3
+Rania Brar,2535951738,ocd,Assam,4.63,14,2100.0,1806.0
+Aaryahi Dara,4391753345,ocd,Andaman and Nicobar Islands,2.63,12,1610.0,1416.8
+Hrishita Cherian,5382706429,ocd,Madhya Pradesh,3.78,14,1890.0,1625.4
+Pari Chaudhary,5301767519,adhd,Rajasthan,4.14,8,1880.0,1729.6
+Trisha Sama,0309694191,adhd,Andhra Pradesh,2.38,9,1420.0,1292.2
+Renee Deshmukh,05988900496,dyslexia,Uttarakhand,4.91,10,2100.0,1890.0
+Umang De,05457591290,autism,Bihar,4.01,6,1950.0,1833.0
+Ivana Walia,07707426517,autism,Tamil Nadu,3.3,10,1720.0,1548.0
+Abram Basak,02178306309,dyslexia,Dadra and Nagar Haveli,2.96,9,1450.0,1319.5
+Riaan Roy,7986970723,anxiety,Chandigarh,2.97,13,1580.0,1374.6
+Amani Raja,+915730623601,adhd,Tamil Nadu,3.6,8,1720.0,1582.4
+Jhanvi Tara,+910540943132,adhd,Bihar,2.67,8,1530.0,1407.6
+Myra Bhardwaj,1246561166,anxiety,Gujarat,2.51,9,1490.0,1355.9
+Shanaya Joshi,02261985615,dyslexia,Himachal Pradesh,2.56,8,1520.0,1398.4
+Abram Dara,+912178079737,adhd,Gujarat,2.36,13,1310.0,1139.7
+Baiju Kamdar,+912523283899,autism,Assam,3.9,13,1850.0,1609.5
+Taimur Chakraborty,02474860606,autism,Andaman and Nicobar Islands,2.55,9,1360.0,1237.6
+Saira Sem,5619279409,ocd,Mizoram,2.07,8,1230.0,1131.6
+Biju Jaggi,5290470925,adhd,Dadra and Nagar Haveli,4.19,11,1930.0,1717.7
+Umang Sandhu,8153824972,anxiety,Madhya Pradesh,2.46,7,1370.0,1274.1
+Rasha Bhagat,4402378016,ocd,Bihar,2.25,13,1270.0,1104.9
+Anahi Khalsa,+912393941590,odd,Maharashtra,2.56,6,1580.0,1485.2
+Biju Swamy,02728163498,odd,Goa,2.23,13,1460.0,1270.2
+Jiya Bhatia,08288638900,adhd,Gujarat,4.03,6,1880.0,1767.2
+Tejas Rajan,04021152446,odd,Kerala,2.95,10,1470.0,1323.0
+Manjari Ganesh,+911304021005,autism,Uttar Pradesh,2.42,6,1320.0,1240.8
+Heer Sachdev,7336846980,dyslexia,Chhattisgarh,3.47,15,1740.0,1479.0
+Zeeshan Malhotra,+914445449369,adhd,Haryana,4.29,7,2020.0,1878.6
+Aayush Ramachandran,+918102033828,ocd,Sikkim,2.2,10,1490.0,1341.0
+Drishya Samra,6392179179,dyslexia,Meghalaya,3.52,14,1690.0,1453.4
+Urvi Majumdar,+914114749939,anxiety,West Bengal,3.35,14,1670.0,1436.2
+Jayant Ramesh,+913410878296,dyslexia,Tamil Nadu,4.24,6,1830.0,1720.2
+Ayesha Uppal,02822359435,adhd,Chhattisgarh,2.34,13,1410.0,1226.7
+Adah Gulati,+913386085583,anxiety,Meghalaya,4.32,12,1830.0,1610.4
+Ryan Devan,3515992159,adhd,Delhi,3.28,7,1530.0,1422.9
+Rania Tank,00295318848,adhd,Chandigarh,2.82,6,1540.0,1447.6
+Tara Batra,08412560147,autism,Rajasthan,2.66,5,1520.0,1444.0
+Jhanvi Sura,09277598479,anxiety,Delhi,4.65,7,1880.0,1748.4

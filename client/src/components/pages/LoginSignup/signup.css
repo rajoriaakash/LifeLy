@@ -1,0 +1,122 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.login-content {
+  height: 100%;
+  width: 30%;
+  align-items: center;
+}
+.header {
+  font-family: "Montserrat";
+  color: #939b62;
+}
+.login-container img {
+  width: 110%;
+  height: 550px;
+}
+.login-email {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 1.2rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+  background: transparent
+    url("https://img.icons8.com/material-outlined/24/null/new-post.png")
+    no-repeat 85%;
+  z-index: -1;
+  background-size: auto;
+  border: none;
+}
+
+.login-email:hover,
+.login-password,.login-name:hover {
+  opacity: 1;
+  border: none;
+}
+.login-password {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 1.2rem;
+
+  width: 100%;
+  overflow: hidden;
+  /* border: 1px solid transparent; */
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+  background: transparent
+    url("https://img.icons8.com/material-outlined/24/null/hide.png") no-repeat
+    85%;
+  z-index: -1;
+  background-size: auto;
+  border: none;
+}
+
+.login-name {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 1.2rem;
+
+  width: 100%;
+  overflow: hidden;
+  /* border: 1px solid transparent; */
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+  background: transparent
+    url("https://img.icons8.com/fluency-systems-filled/24/null/employee-card.png") no-repeat
+    85%;
+  z-index: -1;
+  background-size: auto;
+  border: none;
+}
+.login-email,
+.login-password,.login-name{
+  padding: 3% 3%;
+}
+.login-button {
+  margin-top: 10%;
+  margin-left: 25%;
+  font-size: 2rem;
+  background-color: #939b62;
+  color: white;
+  padding: 3% 15%;
+  border-radius: 5%;
+  border: none;
+}
+
+.tag {
+  font-size: 1.8rem;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.tag-outer {
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.login-content div {
+  margin: 10% 0%;
+}

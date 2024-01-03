@@ -1,0 +1,17 @@
+.workflow-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7% 4%;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.content {
+  text-align: center;
+  width: 60%;
+}

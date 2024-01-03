@@ -1,0 +1,25 @@
+.image-ex img {
+  height: 300px;
+  width: 300px;
+}
+.outer-ex {
+    padding: 4%;
+  font-family: "Montserrat";
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-ex,.yt{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.yt{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
