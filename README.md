@@ -13,7 +13,7 @@
       - npm run install-deps
       - npm start
  8. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
- 9. This will start the server deployed on (https://lifely-mern.onrender.com) and client.
+ 9. This will start the server deployed on (https://lifely-mern.onrender.com) and client deployed on (https://lifely-client.onrender.com).
  10. Continue Development.
 
 
