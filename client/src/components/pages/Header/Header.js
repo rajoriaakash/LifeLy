@@ -29,7 +29,7 @@ const Header = () => {
       <div className='logo'>LifeLy</div>
       <div className='navbar-links'>
         <a href='#workflow'>How it Works?</a>
-        <Link style={{ color: 'black', textDecoration: 'none' }} to='/aboutDisease'>About diseases</Link>
+        <Link style={{ color: 'black', textDecoration: 'none' }} to='/chatBot'>ChatBot</Link>
         <Link style={{ color: 'black', textDecoration: 'none' }} to='/survey'>
           Survey
         </Link>
