@@ -13,7 +13,7 @@ import recommendRoutes from "./routes/recommend.js";
 import predictRoutes from "./routes/predict.js";
 import sendRoutes from "./routes/send.js";
 import reviewRoutes from "./routes/review.js";
-
+import chatRoutes from "./routes/chat.js";
 /*CONFIGURATION*/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

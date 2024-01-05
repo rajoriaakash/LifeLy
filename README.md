@@ -8,6 +8,10 @@
       JWT_SECRET = "{your jwt secret}"
       PORT=3001
       GMAIL_PASSWORD="{your gmail password for nodemailer}"
+ 5. Add another .env file in /prediction_backend/autism_model folder.
+ 6. .env file looks like this:
+      export OPENAI_API_KEY=<your-openai-key>
+      export SECRET_KEY=<any-32-length-string>
  6. Open the repo in your code editor.
  7. Run the following commands in root directory:
       - npm run install-deps

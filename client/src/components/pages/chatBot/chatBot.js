@@ -6,6 +6,7 @@ import bg from '../../../assets/bg.png'
 import mic from '../../../assets/mic.png'
 import mic_on from '../../../assets/mic_on.png'
 import axios from 'axios'
+import { SERVER_URL } from '../../../config.js';
 import SpeechRecognition, {
   useSpeechRecognition
 } from 'react-speech-recognition'
@@ -49,7 +50,7 @@ function ChatBot() {
   useEffect(() => {
     if (userInput !== '') {
       setLoading(true)
-      axios.get(`http://localhost:8001/api/response?message=${userInput}`).then(
+      axios.post(`${SERVER_URL}/chat/lifely`, { userInput: userInput}).then(
         response => {
           // speechSynthesis.cancel()
           // let utterance = new SpeechSynthesisUtterance(response.data)

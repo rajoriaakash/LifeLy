@@ -11,7 +11,7 @@ import pandas as pd
 import json
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from prediction_backend.autism_model.chatbotHelper import gpt3_logs,main
+from chatbotHelper import gpt3_logs,main
 import os
 
 
@@ -21,8 +21,7 @@ lr_columns = joblib.load('lr_columns.pkl')
 origins=["*"]
 app = FastAPI()
 load_dotenv(".env")
-# secret_key_from_env = os.getenv("SECRET_KEY")
-secret_key_from_env = "12345678123456781234567812345678"
+secret_key_from_env = os.getenv("SECRET_KEY")
 
 
 app.add_middleware(
