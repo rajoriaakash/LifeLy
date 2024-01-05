@@ -4,7 +4,7 @@ from starlette.middleware.sessions import SessionMiddleware
 import uvicorn
 import os
 from dotenv import load_dotenv
-from main import gpt3_logs, main
+from chatbot_backend.helper import gpt3_logs, main
 
 app = FastAPI()
 

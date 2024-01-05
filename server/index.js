@@ -35,6 +35,7 @@ app.use("/recommend",recommendRoutes);
 app.use("/predict",predictRoutes);
 app.use("/send_email",sendRoutes);
 app.use("/review",reviewRoutes);
+app.use("/chat",chatRoutes);
 
 //MONGOOSE SETUP
 const PORT = process.env.PORT || 6001;
