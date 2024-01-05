@@ -9,9 +9,9 @@ import axios from 'axios'
 import SpeechRecognition, {
   useSpeechRecognition
 } from 'react-speech-recognition'
-import { Dna } from 'react-loader-spinner'
+import { Comment } from 'react-loader-spinner'
 
-function ChatBot() {
+function ChatBot () {
   const [userInput, setUserInput] = useState('')
   const [recording, setRecording] = useState(false)
   const [loading, setLoading] = useState(false)
@@ -120,13 +120,16 @@ function ChatBot() {
         >
           {loading && (
             <div className='flex justify-center items-center'>
-              <Dna
+              ;
+              <Comment
                 visible={true}
-                height='100'
-                width='100'
-                ariaLabel='dna-loading'
+                height='80'
+                width='80'
+                ariaLabel='comment-loading'
                 wrapperStyle={{}}
-                wrapperClass='dna-wrapper'
+                wrapperClass='comment-wrapper'
+                color='#fff'
+                backgroundColor='#939b62'
               />
             </div>
           )}
