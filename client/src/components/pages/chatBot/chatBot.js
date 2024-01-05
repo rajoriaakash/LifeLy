@@ -24,7 +24,7 @@ function ChatBot() {
   const bottomRef = useRef(null)
 
   const themes = {
-    primaryColor: '#475569',
+    primaryColor: '#939b62',
     secondryColor: '#475569',
     primaryFontColor: 'white',
     secondryFontColor: '#2C3333',
@@ -105,17 +105,17 @@ function ChatBot() {
         style={{ backgroundColor: themes.primaryColor }}
         className={`w-full h-18  fixed flex justify-between`}
       >
-        <div
+        {/* <div
           style={{ color: themes.logoColor }}
           className='text-green-100 text-3xl font-bold p-5 font-sans'
         >
-          VBot
-        </div>
+          Lifely-Bot
+        </div> */}
       </div>
 
-      <div className='py-32'>
+      <div className=''>
         <div
-          className='max-w-2xl mx-auto space-y-12 grid grid-cols-1 overflow-y-auto scroll-smooth scrollbar-hide overflow-x-hidden'
+          className='mx-64 space-y-12 grid grid-cols-1 overflow-y-auto scroll-smooth scrollbar-hide overflow-x-hidden'
           style={{ maxHeight: '30rem' }}
         >
           {loading && (
@@ -143,7 +143,7 @@ function ChatBot() {
                     }`}
                   >
                     <div
-                      className='mt-3  p-3 rounded-2xl'
+                      className='mt-3 p-3 rounded-2xl'
                       style={{
                         backgroundColor: message.fromUser
                           ? themes.primaryColor
@@ -168,7 +168,7 @@ function ChatBot() {
       </div>
 
       <div className={`w-full fixed bottom-0`}>
-        <div className='justify-end items-center bg-white rounded-xl flex mx-96 my-3'>
+        <div className='justify-end items-center bg-white rounded-xl flex mx-64 my-3'>
           <input
             className='p-3 bg-white w-full rounded-l-md border-0 outline-none'
             placeholder='Ask your question...'

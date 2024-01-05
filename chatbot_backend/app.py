@@ -26,7 +26,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return "Hit from VBot"
+    return "Hit from Lifely-Bot"
 
 @app.get("/api/response")
 async def get_response(message: str, request: Request):

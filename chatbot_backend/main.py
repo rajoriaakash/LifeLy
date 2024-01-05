@@ -16,7 +16,7 @@ def read_file(file):
 
 session_prompt = read_file("datas/data.txt")
 restart_sequence = "\n\nUser:"
-start_sequence = "\nVBot:"
+start_sequence = "\nLifely-Bot:"
 
 def answer(ques, chat_log = None):
     max_try = 1
@@ -33,12 +33,13 @@ def answer(ques, chat_log = None):
                 top_p = 1,
                 frequency_penalty = 0.0,
                 presence_penalty = 0.6,
-                stop = ["User:", "VBot:"]
+                stop = ["User:", "Lifely-Bot:"]
             ) 
             # print(response)
             ans = response['choices'][0]['text']
             return str(ans)
         except:
+            # print(try_count)
             try_count = try_count + 1
             if(try_count >= max_try): 
                 return 'GTP3 error'
@@ -67,7 +68,7 @@ def message_check(message, chat_log):
 
 def main(msg,chat):
     ans = message_check(msg,chat)
-    print("VBot: ", str(ans))
+    print("Lifely-Bot: ", str(ans))
     return ans
 
 if __name__ == "__main__":
