@@ -1,10 +1,28 @@
 import openai
-import os
 from dotenv import load_dotenv
 import os 
+import sys
+from flask import request
+from langchain.chains import ConversationalRetrievalChain, RetrievalQA
+from langchain.chat_models import ChatOpenAI
+from langchain.document_loaders import DirectoryLoader, TextLoader
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.indexes import VectorstoreIndexCreator
+from langchain.indexes.vectorstore import VectorStoreIndexWrapper
+from langchain.llms import OpenAI
+from langchain.vectorstores import Chroma
+from langchain.memory import ConversationBufferMemory
+from langchain.prompts import  PromptTemplate
+from langchain.chains.question_answering import load_qa_chain
+
 
 load_dotenv(".env")
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+PERSIST = False
+query = None
+llm = ChatOpenAI()
+
 
 def read_file(file):
     content = ""
@@ -14,62 +32,91 @@ def read_file(file):
         content = content + " " + line.strip()
     return content
 
-session_prompt = read_file("datas/data.txt")
+SYSTEM_PROMPT = read_file("datas/data.txt")
 restart_sequence = "\n\nUser:"
 start_sequence = "\nLifely-Bot:"
 
-def answer(ques, chat_log = None):
-    max_try = 1
-    try_count = 0
-    while True:
-        try:
-            prompt_text = f'{chat_log}{restart_sequence} {ques}{start_sequence}'
-            print(prompt_text)
-            response = openai.Completion.create(
-                model = "text-davinci-002",
-                prompt = prompt_text,
-                temperature = 0.8,
-                max_tokens = 500,
-                top_p = 1,
-                frequency_penalty = 0.0,
-                presence_penalty = 0.6,
-                stop = ["User:", "Lifely-Bot:"]
-            ) 
-            # print(response)
-            ans = response['choices'][0]['text']
-            return str(ans)
-        except:
-            # print(try_count)
-            try_count = try_count + 1
-            if(try_count >= max_try): 
-                return 'GTP3 error'
-            print('Error')
 
-def checkViolation(ans):
-    response = openai.Moderation.create(input=ans)
-    output = response["results"][0]["flagged"]
-    return output
+if len(sys.argv) > 1:
+  query = sys.argv[1]
+
+if PERSIST and os.path.exists("persist"):
+  print("Reusing index...\n")
+  vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
+  index = VectorStoreIndexWrapper(vectorstore=vectorstore)
+else:
+  #loader = TextLoader("data/data.txt") # Use this line if you only need data.txt
+  loader = DirectoryLoader("datas/")
+  if PERSIST:
+    index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders([loader])
+  else:
+    index = VectorstoreIndexCreator().from_loaders([loader])
+
 
 def gpt3_logs(question, answer, chat_log=None):
     if chat_log is None:
-        chat_log = session_prompt
+        chat_log = SYSTEM_PROMPT
     return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
-def message_check(message, chat_log):
-    flag_user = checkViolation(message)
-    if(not flag_user):
-        ans = answer(message,chat_log)
-        flag_bot = checkViolation(ans)
-        if(flag_bot):
-            ans = "My response violates OpenAI's Content Policy."
-    else:
-        ans = "Your message violates OpenAI's Content Policy."
-    return ans
+
+def generate_prompt(prompt: str, system_prompt: str = "") -> str:
+    return f"""
+[INST] <<SYS>>
+{system_prompt}
+<</SYS>>
+
+{prompt} [/INST]
+""".strip()
+
+
+def get_conversation_chain(_vectorstore):
+    llm = ChatOpenAI()
+    template = generate_prompt(
+        """
+        
+        Context: {context}
+        Chat History: {chat_history}
+        Question: {question}
+        Response:
+        """,
+        system_prompt=SYSTEM_PROMPT,
+    )
+    prompt = PromptTemplate(template=template, input_variables=["context", "question","chat_history"])
+
+    memory = ConversationBufferMemory(
+        memory_key="chat_history",
+        human_prefix="Question",
+        ai_prefix="Response",
+        input_key="question",
+        k=50,
+        return_messages=True,
+        output_key='answer'
+    )
+
+    chain = load_qa_chain(
+        llm, chain_type="stuff", prompt=prompt, memory=memory, verbose=True
+    )
+    qa_chain = ConversationalRetrievalChain.from_llm(
+        llm,
+        chain_type="stuff",
+        retriever=_vectorstore,
+        memory=memory,
+        combine_docs_chain_kwargs={"prompt": prompt},
+        return_source_documents=True,
+        verbose=True,
+    )
+    return qa_chain
+
+
+chat_history = []
+
+chain=get_conversation_chain(index.vectorstore.as_retriever(search_kwargs={"k": 3}))
 
 def main(msg,chat):
-    ans = message_check(msg,chat)
-    print("Lifely-Bot: ", str(ans))
-    return ans
+    result = chain({"question": msg, "chat_history": chat})
+    print(result['chat_history'])
+    chat_history.append((msg, result['answer']))
+    return result['answer']
 
 if __name__ == "__main__":
     ans = main("What is your name",chat=None)
