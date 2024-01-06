@@ -28,7 +28,7 @@ app.add_middleware(
 def home():
     return "Hit from Lifely-Bot"
 
-@app.get("/api/response")
+@app.get("/bot/response")
 async def get_response(message: str, request: Request):
     chat_log = request.session.get('chat_log')
     if(chat_log == None):

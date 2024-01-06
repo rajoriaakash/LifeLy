@@ -2,7 +2,7 @@ from typing import Optional
 import pandas as pd
 
 
-df = pd.read_csv('./doctors.csv', encoding='ISO-8859-1')
+df = pd.read_csv('doctors_model/doctors.csv', encoding='ISO-8859-1')
 
 async def get_json_from_csv(state: Optional[str] = None, disease: Optional[str] = None):
     # Filter data based on state and disease

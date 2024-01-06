@@ -8,17 +8,15 @@
       JWT_SECRET = "{your jwt secret}"
       PORT=3001
       GMAIL_PASSWORD="{your gmail password for nodemailer}"
- 5. Add another .env file in /fastapi/bot_model folder.
- 6. .env file looks like this:
       OPENAI_API_KEY=<your-openai-key>
       SECRET_KEY=<any-32-length-string>
- 6. Open the repo in your code editor.
- 7. Run the following commands in root directory:
+ 5. Open the repo in your code editor.
+ 6. Run the following commands in root directory:
       - npm run install-deps
       - npm start
- 8. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
- 9. This will start the server deployed on (https://lifely-mern.onrender.com) and client deployed on (https://lifely-client.onrender.com).
- 10. Continue Development.
+ 7. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
+ 8. This will start the server deployed on (https://lifely-mern.onrender.com) and client deployed on (https://lifely-client.onrender.com).
+ 9. Continue Development.
 
 
 #### To continue with development

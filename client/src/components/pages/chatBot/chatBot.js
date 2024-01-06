@@ -50,7 +50,9 @@ function ChatBot () {
   useEffect(() => {
     if (userInput !== '') {
       setLoading(true)
-      axios.post(`${SERVER_URL}/chat/lifely`, { userInput: userInput}).then(
+      // to be replaced by this when server is hosted
+      // axios.post(`${SERVER_URL}/chat/lifely`, { userInput: userInput}).then(
+      axios.post(`http://localhost:3001/chat/lifely`, { userInput: userInput}).then(
         response => {
           // speechSynthesis.cancel()
           // let utterance = new SpeechSynthesisUtterance(response.data)
