@@ -14,6 +14,10 @@ from langchain.vectorstores import Chroma
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import  PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
+import fitz 
+from langchain_community.document_loaders import PyPDFLoader
+from langchain.document_loaders import UnstructuredPDFLoader
+from langchain.text_splitter import CharacterTextSplitter,RecursiveCharacterTextSplitter
 
 
 load_dotenv(".env")
@@ -32,10 +36,23 @@ def read_file(file):
         content = content + " " + line.strip()
     return content
 
-SYSTEM_PROMPT = read_file("datas/data.txt")
+SYSTEM_PROMPT = read_file("datas/prompt/prompt.txt")
 restart_sequence = "\n\nUser:"
 start_sequence = "\nLifely-Bot:"
 
+
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    try:
+        doc = fitz.open(pdf_path)
+        for page_num in range(doc.page_count):
+            page = doc[page_num]
+            text += page.get_text()
+    except Exception as e:
+        print(f"Error extracting text from PDF: {e}")
+    return text
+
+pdf_directory = "datas/pdfs/"
 
 if len(sys.argv) > 1:
   query = sys.argv[1]
@@ -45,12 +62,36 @@ if PERSIST and os.path.exists("persist"):
   vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
   index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
-  #loader = TextLoader("data/data.txt") # Use this line if you only need data.txt
-  loader = DirectoryLoader("datas/")
-  if PERSIST:
-    index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders([loader])
-  else:
-    index = VectorstoreIndexCreator().from_loaders([loader])
+# Initialize the loader with the PDF files
+#   loader = DirectoryLoader("datas/prompt")
+#    loader = PyPDFLoader(pdf_directory)
+    pdf_folder_path = "datas/pdfs"
+    print(os.listdir(pdf_folder_path))
+
+    # Load multiple files
+    loaders = [UnstructuredPDFLoader(os.path.join(pdf_folder_path, fn)) for fn in os.listdir(pdf_folder_path)]
+
+    print(loaders)
+
+    all_documents = []
+
+    for loader in loaders:
+        print("Loading raw document..." + loader.file_path)
+        raw_documents = loader.load()
+
+        print("Splitting text...")
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000,
+            chunk_overlap=200,
+            length_function=len,
+        )
+        documents = text_splitter.split_documents(raw_documents)
+        all_documents.extend(documents)
+#   print(loader)
+    if PERSIST:
+        index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders(loaders)
+    else:
+        index = VectorstoreIndexCreator().from_loaders(loaders)
 
 
 def gpt3_logs(question, answer, chat_log=None):
@@ -73,7 +114,6 @@ def get_conversation_chain(_vectorstore):
     llm = ChatOpenAI()
     template = generate_prompt(
         """
-        
         Context: {context}
         Chat History: {chat_history}
         Question: {question}
@@ -113,10 +153,11 @@ chat_history = []
 chain=get_conversation_chain(index.vectorstore.as_retriever(search_kwargs={"k": 3}))
 
 def main(msg,chat):
+    print(chat_history)
     result = chain({"question": msg, "chat_history": chat})
-    print(result['chat_history'])
     chat_history.append((msg, result['answer']))
     return result['answer']
+
 
 if __name__ == "__main__":
     ans = main("What is your name",chat=None)
