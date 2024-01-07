@@ -36,7 +36,7 @@ def read_file(file):
         content = content + " " + line.strip()
     return content
 
-file_path = "bot_model\datas\prompt\prompt.txt"
+file_path = "bot_model/datas/prompt/prompt.txt"
 SYSTEM_PROMPT = read_file(file_path)
 restart_sequence = "\n\nUser:"
 start_sequence = "\nLifely-Bot:"
