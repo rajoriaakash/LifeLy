@@ -18,13 +18,13 @@ import fitz
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import CharacterTextSplitter,RecursiveCharacterTextSplitter
+import pickle
 
 
 load_dotenv(dotenv_path="../server/.env")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-PERSIST = False
-query = None
+
 llm = ChatOpenAI()
 
 
@@ -57,42 +57,44 @@ pdf_directory = "bot_model/datas/pdfs/"
 if len(sys.argv) > 1:
   query = sys.argv[1]
 
+PERSIST = True
 if PERSIST and os.path.exists("persist"):
   print("Reusing index...\n")
   vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
   index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
-# Initialize the loader with the PDF files
-#   loader = DirectoryLoader("datas/prompt")
-#    loader = PyPDFLoader(pdf_directory)
     pdf_folder_path = "bot_model/datas/pdfs"
     print(os.listdir(pdf_folder_path))
+    pickle_file_path = "embedding_data.pkl"
+    if os.path.exists(pickle_file_path):
+        with open(pickle_file_path, 'rb') as pickle_file:
+            all_documents, loaders = pickle.load(pickle_file)
+            print(loaders)
+    else:
+        loaders = [UnstructuredPDFLoader(os.path.join(pdf_folder_path, fn)) for fn in os.listdir(pdf_folder_path)]
+        print(loaders)
+        all_documents = []
+        for loader in loaders:
+            print("Loading raw document..." + loader.file_path)
+            raw_documents = loader.load()
 
-    # Load multiple files
-    loaders = [UnstructuredPDFLoader(os.path.join(pdf_folder_path, fn)) for fn in os.listdir(pdf_folder_path)]
+            print("Splitting text...")
+            text_splitter = RecursiveCharacterTextSplitter(
+                chunk_size=1000,
+                chunk_overlap=100,
+                length_function=len,
+            )
+            documents = text_splitter.split_documents(raw_documents)
+            all_documents.extend(documents)   
+            # print(documents)     
+        with open(pickle_file_path, 'wb') as pickle_file:
+            pickle.dump((all_documents, loaders), pickle_file)
 
-    print(loaders)
-
-    all_documents = []
-
-    for loader in loaders:
-        print("Loading raw document..." + loader.file_path)
-        raw_documents = loader.load()
-
-        print("Splitting text...")
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000,
-            chunk_overlap=200,
-            length_function=len,
-        )
-        documents = text_splitter.split_documents(raw_documents)
-        all_documents.extend(documents)
-#   print(loader)
     if PERSIST:
         index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders(loaders)
     else:
         index = VectorstoreIndexCreator().from_loaders(loaders)
-
+  
 
 def gpt3_logs(question, answer, chat_log=None):
     if chat_log is None:
@@ -153,7 +155,7 @@ chat_history = []
 chain=get_conversation_chain(index.vectorstore.as_retriever(search_kwargs={"k": 3}))
 
 def main(msg,chat):
-    print(chat_history)
+    # print(chat_history)
     result = chain({"question": msg, "chat_history": chat})
     chat_history.append((msg, result['answer']))
     return result['answer']

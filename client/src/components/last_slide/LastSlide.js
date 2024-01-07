@@ -47,11 +47,6 @@ export default function LastSlide(props) {
     </>
   );
 }
-
-// LastSlide.propTypes = {
-//   title: PropTypes.title.isRequired,
-// };
-
 LastSlide.defaultProps = {
   title: "Integrated Schools",
   schools: [
