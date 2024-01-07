@@ -15,8 +15,7 @@ import YourReport from "./components/pages/report/YourReport.js";
 import Review from "./components/pages/reviewsec/review";
 import Expage from './components/pages/Exercises/Expage'
 import Appointment from "./components/pages/appointment/appointment";
-// import Exercises from "./components/pages/Exercises/Exercises";
-
+import Chatbot from './components/pages/chatBot/chatBot.js'
 function App(props) {
   const [user, setUserState] = useState({});
 
@@ -38,7 +37,7 @@ function App(props) {
         />
         <Route exact path="/signup" element={<Signup />}></Route>
         <Route exact path="/exercises" element={<Exercises />}></Route>
-        {/* <Route exact path='/aboutDisease' element={<AboutDisease />}></Route> */}
+        <Route exact path='/chatBot' element={<Chatbot />}></Route>
         <Route exact path="/about" element={<SecondLastSlide />}></Route>
         <Route exact path="/survey" element={<Survey />}></Route>
         <Route exact path="/schools" element={<Rough />}></Route>

@@ -2,3 +2,8 @@ client/node_modules
 server/node_modules
 node_modules
 server/.env
+fastapi/bot_model/.env
+fastapi/__pycache__/
+fastapi/bot_model/__pycache__
+fastapi/autism_model/__pycache__
+fastapi/doctors_model/__pycache__
