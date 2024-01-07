@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import exercisePic from '../../../images/autism.png'
+import exercisePic from '../../images/autism.png'
 import './exercise.css'
 import SingleExercise from './SingleExercise'
 import { Link } from 'react-router-dom'

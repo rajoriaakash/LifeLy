@@ -4,9 +4,9 @@ import school2 from "../../images/school2.png";
 import school3 from "../../images/school3.png";
 import school4 from "../../images/school4.png";
 import "./style.css";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer";
-import Image from "./Image";
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
+import Image from "./Image.js";
 export default function LastSlide(props) {
   document.body.style.zoom = "50%";
   return (

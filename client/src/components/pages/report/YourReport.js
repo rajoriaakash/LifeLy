@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import myimage from '../../../images/Site Stats-rafiki.png';
-import newsimg from '../../../images/news.png';
+import myimage from '../../images/Site Stats-rafiki.png';
+import newsimg from '../../images/news.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './report.css'
@@ -107,7 +107,7 @@ export default function YourReport(props) {
             <div className='dis1 dis-aut'>Austism</div>
             <div className='dis2 dis-aut'>{data.autism_percent}%</div>
           </div>
-          <div className='btn' onClick={()=>navigate('/about',{replace:true})}>know about the disease</div>
+          <div className='btn' onClick={()=>navigate('/aboutDisease',{replace:true})}>know about the disease</div>
         </div>
         <div className='dyslexia'>
           <div className='dis '>

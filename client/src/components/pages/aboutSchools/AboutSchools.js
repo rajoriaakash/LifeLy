@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import Image from "./Image";
+import Image from './schoolCard.js'
 import "./style.css";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer";
-function App() {
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
+function AboutSchools() {
   const [users, setUsers] = useState([]);
 
   // Function to collect data
   const getApiData = async () => {
     const response = await fetch(
-      "https://justcors.com/tl_8efa0ea/http://www.currentdiary.com/school/school-api/"
+      "http://www.currentdiary.com/school/school-api/"
     ).then((response) => response.json());
 
     setUsers(response);
@@ -45,7 +45,7 @@ function App() {
   );
 }
 
-export default App;
+export default AboutSchools;
 {
   /* <Image
   url={school1}

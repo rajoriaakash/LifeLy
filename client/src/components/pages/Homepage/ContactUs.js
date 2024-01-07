@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import contact from '../../../images/contact.png'
+import contact from '../../images/contact.png'
 const ContactUs = () => {
   return (
     <div id='contact' className='contact'>

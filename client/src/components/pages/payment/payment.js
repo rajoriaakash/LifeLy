@@ -2,9 +2,9 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCreditCard,faCalendarAlt, faLock } from '@fortawesome/free-solid-svg-icons';
 import './payment.css'
-import gateway from '../../../images/gateway.png'
-import imgpay from '../../../images/gpay.png'
-import impaytm from '../../../images/paytm.png'
+import gateway from '../../images/gateway.png'
+import imgpay from '../../images/gpay.png'
+import impaytm from '../../images/paytm.png'
 
 export default function payment() {
   return (

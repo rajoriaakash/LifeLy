@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./review.css";
-import img1 from "../../../images/review.png";
+import img1 from "../../images/review.png";
 import axios from "axios";
 import { SERVER_URL } from '../../../config.js';
 import { Link, useNavigate } from 'react-router-dom'

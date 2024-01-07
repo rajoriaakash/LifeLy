@@ -1,10 +1,10 @@
 import React from 'react'
-import globe from '../../../images/globe.png'
-import down from '../../../images/down-arrow.png'
-import copyright from '../../../images/copyright.png'
-import facebook from '../../../images/facebook.jpeg'
-import insta from '../../../images/OIP (3).jfif'
-import twitter from '../../../images/OIP (4).jfif'
+import globe from '../../images/globe.png'
+import down from '../../images/down-arrow.png'
+import copyright from '../../images/copyright.png'
+import facebook from '../../images/facebook.jpeg'
+import insta from '../../images/OIP (3).jfif'
+import twitter from '../../images/OIP (4).jfif'
 import './footer.css'
 
 

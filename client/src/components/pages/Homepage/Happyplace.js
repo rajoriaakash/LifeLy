@@ -1,9 +1,9 @@
 import React from 'react'
 import './happyplace.css'
-import session from '../../../images/session.jpg'
+import session from '../../images/session.jpg'
 import SingleHp from './SingleHp'
-import vacation from '../../../images/vacation.jpg'
-import meditation from '../../../images/meditation.jpg'
+import vacation from '../../images/vacation.jpg'
+import meditation from '../../images/meditation.jpg'
 import { useNavigate, Link } from 'react-router-dom'
 const Happyplace = () => {
   const searchItem = [

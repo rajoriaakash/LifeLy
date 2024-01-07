@@ -4,8 +4,8 @@ import { useState } from "react";
 import myimage from "../../images/survey_img.png";
 import "./style.css";
 import { Link } from "react-router-dom";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer";
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
 
 // import Option from "./Survey.js";
 
@@ -48,7 +48,7 @@ const RadioInput = ({
     </div>
   );
 };
-export default function Survey(props) {
+export default function SurveySecondPage(props) {
   const location = useLocation();
   //   console.log(props, " props");
   //   console.log(location, " useLocation Hook");
@@ -505,7 +505,7 @@ export default function Survey(props) {
           <Link
             state={{ data: results }}
             to={{
-              pathname: "/register2",
+              pathname: "/surveythird",
             }}
           >
             <button

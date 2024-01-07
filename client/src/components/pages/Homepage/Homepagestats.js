@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate, Link } from 'react-router-dom'
-import analytics from '../../../images/analytics.png'
-import bar from '../../../images/bar.jpg'
+import analytics from '../../images/analytics.png'
+import bar from '../../images/bar.jpg'
 
 import './homepage.css'
 

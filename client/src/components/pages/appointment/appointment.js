@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './appointment.css'
-import appoint from '../../../images/appointment.png'
+import appoint from '../../images/appointment.png'
 import { useLocation } from 'react-router-dom'
 import axios from "axios";
 import { SERVER_URL } from '../../../config';

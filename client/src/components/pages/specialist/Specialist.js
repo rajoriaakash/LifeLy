@@ -1,10 +1,10 @@
 import React,{useState, useEffect} from 'react';
-import myimage from '../../../images/specialist.png';
+import myimage from '../../images/specialist.png';
 import './specialist.css';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { SERVER_URL_FASTAPI } from '../../../config.js';
-import doc from '../../../images/doctor_icon.jpg'
+import doc from '../../images/doctor_icon.jpg'
 export default function Specialist(props) {
   const [selectedCity, setSelectedCity] = useState('');
   const [doctors, setDoctors] = useState([]);

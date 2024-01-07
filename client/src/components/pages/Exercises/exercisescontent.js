@@ -1,9 +1,9 @@
-import ex1 from '../../../images/exercise (1).png'
-import ex2 from '../../../images/exercise (2).png'
-import ex3 from '../../../images/exercise (3).png'
-import ex4 from '../../../images/exercise (4).png'
-import ex5 from '../../../images/exercise (5).png'
-import ex6 from '../../../images/exercise (6).png'
+import ex1 from '../../images/exercise (1).png'
+import ex2 from '../../images/exercise (2).png'
+import ex3 from '../../images/exercise (3).png'
+import ex4 from '../../images/exercise (4).png'
+import ex5 from '../../images/exercise (5).png'
+import ex6 from '../../images/exercise (6).png'
 
 
 const data=[

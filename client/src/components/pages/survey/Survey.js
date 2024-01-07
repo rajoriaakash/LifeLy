@@ -1,24 +1,22 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import myimage from "../../images/survey_img.png";
 import "./style.css";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer";
-import axios from "axios";
-import { SERVER_URL_FASTAPI } from "../../config.js";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer";
 
 // import Option from "./Survey.js";
-// const navigate = useNavigate()
 
-let results = [];
+let results = [
+  "1", "4", "1", "1", "1", "1", "1", "4", "4", "1", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4", "4",
+  "4", "4", "4", "4", "4"
+];
 const onClick = (e) => {
   const value1 = e.currentTarget.getAttribute("data-value1");
   const value2 = e.currentTarget.getAttribute("data-value2");
   console.log("Values1", value1);
   console.log("Values2", value2);
-
   results[value1] = value2;
   console.log(results);
 };
@@ -53,50 +51,48 @@ const RadioInput = ({
   );
 };
 export default function Survey(props) {
-  const navigate = useNavigate();
-
   document.body.style.zoom = "70%";
-  const location = useLocation();
-  //   console.log(props, " props");
-  //   console.log(location, " useLocation Hook");
-  const data = location.state?.data;
-  //   console.log(data);
-  results = data;
-  console.log(results);
+  const [question0, setquestion0] = React.useState();
+  const [question1, setquestion1] = React.useState();
+  const [question2, setquestion2] = React.useState();
+  const [question3, setquestion3] = React.useState();
+  const [question4, setquestion4] = React.useState();
+  const [question5, setquestion5] = React.useState();
+  const [question6, setquestion6] = React.useState();
+  const [question7, setquestion7] = React.useState();
+  const [question8, setquestion8] = React.useState();
+  const [question9, setquestion9] = React.useState();
+  const [question10, setquestion10] = React.useState();
 
-  const [question21, setquestion21] = React.useState();
-  const [question22, setquestion22] = React.useState();
-  const [question23, setquestion23] = React.useState();
-  const [question24, setquestion24] = React.useState();
-  const [question25, setquestion25] = React.useState();
-  const [question26, setquestion26] = React.useState();
-  const [question27, setquestion27] = React.useState();
-  const [question28, setquestion28] = React.useState();
-  const [question29, setquestion29] = React.useState();
-  const [question30, setquestion30] = React.useState();
-  const [res1, setRes1] = useState(results);
   const handleSubmit = (e) => {
-    e.preventDefault();
-    try {
-      setRes1(results);
-      console.log(results);
-      const result = {
-        result: results,
-      };
-      console.log(result);
-      axios.post(`${SERVER_URL_FASTAPI}/predict/percentage`, result).then((res) => {
-        console.log(res);
-        navigate("/surveyresult", { state: res.data });
-      });
-    } catch (err) {
-      console.log(err);
-    }
+    // e.preventDefault();
+    // let temp = 1;
+    // console.log(check);
+    // for (let i = 0; i < 11; i++) {
+    //   if (check[i] == "0") temp = 0;
+    // }
+    // <Link
+    //   to={{
+    //     pathname: "/register",
+    //     state: results,
+    //   }}
+    // >
+    //   Register
+    // </Link>;
+    // if (temp == 1) console.log("successfully submitted");
+    // else console.log("fill complete survey");
+    // const data = { question1, question2 };
+    // const json = JSON.stringify(data, null, 4);
+    // console.clear();
+    // console.log(json);
   };
 
   return (
     <>
       <Header></Header>
       <div className="container" style={{ maxWidth: "2000px" }}>
+        {/* <h1>Survey</h1> */}
+
         <div className="image-div">
           <img className="my_img" src={myimage} alt="my-img" />
           <div className="image-text">
@@ -107,435 +103,462 @@ export default function Survey(props) {
             </div>
           </div>
         </div>
-        <form>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <p>0. What is the gender of you child ?</p>
+            <RadioInput
+              label="Female"
+              value="option1"
+              checked={question0}
+              setter={setquestion0}
+              questionno="0"
+              questionop="1"
+              color_code="#a6ea7d80"
+            />
+            <RadioInput
+              label="Male"
+              value="option2"
+              checked={question0}
+              setter={setquestion0}
+              questionno="0"
+              questionop="2"
+              color_code="#F0A9A980"
+            />
+          </div>
           <div>
             <p>
-              21.Does your child ever say that words “wiggle” or “shimmer” on
-              the page while he’s reading? ?
+              1. Does/did your child notice small sounds when others do not ?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question21}
-              setter={setquestion21}
-              questionno="21"
+              checked={question1}
+              setter={setquestion1}
+              questionno="1"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question21}
-              setter={setquestion21}
-              questionno="21"
+              checked={question1}
+              setter={setquestion1}
+              questionno="1"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question21}
-              setter={setquestion21}
-              questionno="21"
+              checked={question1}
+              setter={setquestion1}
+              questionno="1"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question21}
-              setter={setquestion21}
-              questionno="21"
+              checked={question1}
+              setter={setquestion1}
+              questionno="1"
+              questionop="3"
+              color_code="#FFD49580"
+            />
+          </div>
+          <div>
+            <p>
+              2. Does/did your child usually concentrate more on the whole
+              picture, rather than the small details ?
+            </p>
+            <RadioInput
+              label="Definitely Agree"
+              value="option1"
+              checked={question2}
+              setter={setquestion2}
+              questionno="2"
+              questionop="1"
+              color_code="#a6ea7d80"
+            />
+            <RadioInput
+              label="Slightly Agree"
+              value="option2"
+              checked={question2}
+              setter={setquestion2}
+              questionno="2"
+              questionop="2"
+              color_code="#F0A9A980"
+            />
+            <RadioInput
+              label="Slightly Disagree"
+              value="option3"
+              checked={question2}
+              setter={setquestion2}
+              questionno="2"
+              questionop="3"
+              color_code="#F5EE6B80"
+            />
+            <RadioInput
+              label="Definitely Disagree"
+              value="option4"
+              checked={question2}
+              setter={setquestion2}
+              questionno="2"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              22.Does your child complain of headaches, stomachaches, or
-              dizziness when reading ?
+              3. Does/did your child find it easy to do more than one thing at
+              once ?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question22}
-              setter={setquestion22}
-              questionno="22"
+              checked={question3}
+              setter={setquestion3}
+              questionno="3"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question22}
-              setter={setquestion22}
-              questionno="22"
+              checked={question3}
+              setter={setquestion3}
+              questionno="3"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question22}
-              setter={setquestion22}
-              questionno="22"
+              checked={question3}
+              setter={setquestion3}
+              questionno="3"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question22}
-              setter={setquestion22}
-              questionno="22"
+              checked={question3}
+              setter={setquestion3}
+              questionno="3"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              23. Does your child spell inconsistently, misspelling words she
-              already knows ?
+              4. If there is an interruption, can he/she switch back to what
+              he/she was doing very quickly?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question23}
-              setter={setquestion23}
-              questionno="23"
+              checked={question4}
+              setter={setquestion4}
+              questionno="4"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question23}
-              setter={setquestion23}
-              questionno="23"
+              checked={question4}
+              setter={setquestion4}
+              questionno="4"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question23}
-              setter={setquestion23}
-              questionno="23"
+              checked={question4}
+              setter={setquestion4}
+              questionno="4"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question23}
-              setter={setquestion23}
-              questionno="23"
+              checked={question4}
+              setter={setquestion4}
+              questionno="4"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              24. Does your child have difficulty sustaining attention ? Does
-              she space out or get labeled a “daydreamer” ?
+              5. Can your child find it easy to ‘read between the lines’ when
+              someone is talking to him/her?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question24}
-              setter={setquestion24}
-              questionno="24"
+              checked={question5}
+              setter={setquestion5}
+              questionno="5"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question24}
-              setter={setquestion24}
-              questionno="24"
+              checked={question5}
+              setter={setquestion5}
+              questionno="5"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question24}
-              setter={setquestion24}
-              questionno="24"
+              checked={question5}
+              setter={setquestion5}
+              questionno="5"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question24}
-              setter={setquestion24}
-              questionno="24"
+              checked={question5}
+              setter={setquestion5}
+              questionno="5"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              25. Is your child of average or above-average intelligence, but
-              seems unable to read at her grade level?
+              6. Can he know how to tell if someone listening to him/her is
+              getting bored?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question25}
-              setter={setquestion25}
-              questionno="25"
+              checked={question6}
+              setter={setquestion6}
+              questionno="6"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question25}
-              setter={setquestion25}
-              questionno="25"
+              checked={question6}
+              setter={setquestion6}
+              questionno="6"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question25}
-              setter={setquestion25}
-              questionno="25"
+              checked={question6}
+              setter={setquestion6}
+              questionno="6"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question25}
-              setter={setquestion25}
-              questionno="25"
+              checked={question6}
+              setter={setquestion6}
+              questionno="6"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              26. Does your child struggle with word problems — even though he’s
-              otherwise good at math?
+              7. Does your child find it difficult to work out the characters’
+              intentions while reading the story?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question26}
-              setter={setquestion26}
-              questionno="26"
+              checked={question7}
+              setter={setquestion7}
+              questionno="7"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question26}
-              setter={setquestion26}
-              questionno="26"
+              checked={question7}
+              setter={setquestion7}
+              questionno="7"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question26}
-              setter={setquestion26}
-              questionno="26"
+              checked={question7}
+              setter={setquestion7}
+              questionno="7"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question26}
-              setter={setquestion26}
-              questionno="26"
+              checked={question7}
+              setter={setquestion7}
+              questionno="7"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              27. Does your child struggle to copy letters, numbers, or symbols
-              ?
+              8. Does your child like to collect information about categories of
+              things (e.g. types of car, types of bird, types of train, types of
+              plant etc)?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question27}
-              setter={setquestion27}
-              questionno="27"
+              checked={question8}
+              setter={setquestion8}
+              questionno="8"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question27}
-              setter={setquestion27}
-              questionno="27"
+              checked={question8}
+              setter={setquestion8}
+              questionno="8"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question27}
-              setter={setquestion27}
-              questionno="27"
+              checked={question8}
+              setter={setquestion8}
+              questionno="8"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question27}
-              setter={setquestion27}
-              questionno="27"
+              checked={question8}
+              setter={setquestion8}
+              questionno="8"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              28. Does your child avoid reading altogether, or does she get
-              easily frustrated when completing reading-related assignments ?
+              9. Does he find it easy to work out what someone is thinking or
+              feeling just by looking at their face?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question28}
-              setter={setquestion28}
-              questionno="28"
+              checked={question9}
+              setter={setquestion9}
+              questionno="9"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question28}
-              setter={setquestion28}
-              questionno="28"
+              checked={question9}
+              setter={setquestion9}
+              questionno="9"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question28}
-              setter={setquestion28}
-              questionno="28"
+              checked={question9}
+              setter={setquestion9}
+              questionno="9"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question28}
-              setter={setquestion28}
-              questionno="28"
+              checked={question9}
+              setter={setquestion9}
+              questionno="9"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
           <div>
             <p>
-              29.Does your child have difficulty budgeting her time or following
-              a schedule ?
+              10. Does he find it difficult to work out people’s intentions ?
             </p>
             <RadioInput
               label="Definitely Agree"
               value="option1"
-              checked={question29}
-              setter={setquestion29}
-              questionno="29"
+              checked={question10}
+              setter={setquestion10}
+              questionno="10"
               questionop="1"
               color_code="#a6ea7d80"
             />
             <RadioInput
               label="Slightly Agree"
               value="option2"
-              checked={question29}
-              setter={setquestion29}
-              questionno="29"
+              checked={question10}
+              setter={setquestion10}
+              questionno="10"
               questionop="2"
               color_code="#F0A9A980"
             />
             <RadioInput
               label="Slightly Disagree"
               value="option3"
-              checked={question29}
-              setter={setquestion29}
-              questionno="29"
+              checked={question10}
+              setter={setquestion10}
+              questionno="10"
               questionop="3"
               color_code="#F5EE6B80"
             />
             <RadioInput
               label="Definitely Disagree"
               value="option4"
-              checked={question29}
-              setter={setquestion29}
-              questionno="29"
-              questionop="4"
-              color_code="#FFD49580"
-            />
-          </div>
-          <div>
-            <p>
-              30. When reading out loud, does your child repeat words, mix up
-              letters, or change word order without noticing ?
-            </p>
-            <RadioInput
-              label="Definitely Agree"
-              value="option1"
-              checked={question30}
-              setter={setquestion30}
-              questionno="30"
-              questionop="1"
-              color_code="#a6ea7d80"
-            />
-            <RadioInput
-              label="Slightly Agree"
-              value="option2"
-              checked={question30}
-              setter={setquestion30}
-              questionno="30"
-              questionop="2"
-              color_code="#F0A9A980"
-            />
-            <RadioInput
-              label="Slightly Disagree"
-              value="option3"
-              checked={question30}
-              setter={setquestion30}
-              questionno="30"
-              questionop="3"
-              color_code="#F5EE6B80"
-            />
-            <RadioInput
-              label="Definitely Disagree"
-              value="option4"
-              checked={question30}
-              setter={setquestion30}
-              questionno="30"
+              checked={question10}
+              setter={setquestion10}
+              questionno="10"
               questionop="4"
               color_code="#FFD49580"
             />
           </div>
 
-          <input
-            type="button"
-            style={{ textDecoration: "none" }}
-            className="btn btn-primary btn-lg sub_btn"
-            value="Submit"
-            onClick={handleSubmit}
-          ></input>
+          <Link
+            state={{ data: results }}
+            to={{
+              pathname: "/surveysecond",
+            }}
+          >
+            <button
+              style={{ textDecoration: "none" }}
+              className="btn btn-primary btn-lg sub_btn"
+              type="submit"
+            >
+              NEXT
+            </button>
+          </Link>
         </form>
       </div>
       <Footer></Footer>
@@ -659,16 +682,4 @@ export default function Survey(props) {
 //           >
 //             Disabled toggle button
 //           </button> */
-// }
-
-// import React from "react";
-// import { useLocation } from "react-router-dom";
-
-// export default function Register2(props) {
-//   const location = useLocation();
-//   console.log(props, " props");
-//   console.log(location, " useLocation Hook");
-//   const data = location.state?.data;
-//   console.log(data);
-//   return <div></div>;
 // }

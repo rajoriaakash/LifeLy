@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import './signup.css'
 import { Link, useNavigate } from 'react-router-dom'
-import loginimage from '../../../images/login-image.png'
+import loginimage from '../../images/login-image.png'
 import { SERVER_URL } from '../../../config.js';
 
 function Signup () {

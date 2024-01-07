@@ -1,8 +1,8 @@
 import React from "react";
 import school1 from "../../images/school1.png";
 import "./style.css";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer";
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
 export default function Image(props) {
   return (
     <>

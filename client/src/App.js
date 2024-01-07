@@ -5,14 +5,14 @@ import Login from "./components/pages/LoginSignup/Login";
 import Signup from "./components//pages/LoginSignup/Signup";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Exercises from "./components/pages/Exercises/Exercises";
-import Rough from "./components/last_slide/Rough";
-import SecondLastSlide from "./components/second_last/SecondLastSlide";
-import Survey from "./components/survey/Survey";
-import Register from "./components/survey/register.js";
-import Register2 from "./components/survey/Register2.js";
+import AboutSchools from "./components/pages/aboutSchools/AboutSchools.js";
+import AboutDisease from "./components/pages/aboutDiseases/aboutDiseases.js";
+import Survey from "./components/pages/survey/Survey";
+import SurveyThirdPage from "./components/pages/survey/SurveyThirdPage.js";
+import SurveySecondPage from './components/pages/survey/SurveySecondPage.js'
 import Specialist from "./components/pages/specialist/Specialist.js";
 import YourReport from "./components/pages/report/YourReport.js";
-import Review from "./components/pages/reviewsec/review";
+import Review from "./components/pages/addReview/review.js";
 import Expage from './components/pages/Exercises/Expage'
 import Appointment from "./components/pages/appointment/appointment";
 import Chatbot from './components/pages/chatBot/chatBot.js'
@@ -38,11 +38,11 @@ function App(props) {
         <Route exact path="/signup" element={<Signup />}></Route>
         <Route exact path="/exercises" element={<Exercises />}></Route>
         <Route exact path='/chatBot' element={<Chatbot />}></Route>
-        <Route exact path="/about" element={<SecondLastSlide />}></Route>
+        <Route exact path="/aboutDisease" element={<AboutDisease />}></Route>
         <Route exact path="/survey" element={<Survey />}></Route>
-        <Route exact path="/schools" element={<Rough />}></Route>
-        <Route exact path="/register" element={<Register />}></Route>
-        <Route exact path="/register2" element={<Register2 />}></Route>
+        <Route exact path="/schools" element={<AboutSchools />}></Route>
+        <Route exact path="/surveysecond" element={<SurveySecondPage />}></Route>
+        <Route exact path="/surveythird" element={<SurveyThirdPage />}></Route>
         <Route exact path="/surveyresult" element={<YourReport/>}/>
         <Route exact path ="/recommend/doctors" element={<Specialist/>}/>
         <Route exact path="/review" element={<Review/>}/>

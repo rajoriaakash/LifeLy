@@ -2,17 +2,17 @@ import React from "react";
 // import { Table } from "react-bootstrap";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./style.css";
+import "./aboutDisease.css";
 
 import about1 from "../../images/about_1.png";
 import about2 from "../../images/about_2.png";
 import about3 from "../../images/about_3.png";
 import about4 from "../../images/about_4.png";
-import Header from "../pages/Header/Header.js";
-import Footer from "../pages/Footer/Footer.js";
+import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
 import { useNavigate } from 'react-router-dom'
 
-export default function SecondLastSlide(props) {
+export default function AboutDiseases(props) {
   const navigate = useNavigate()
 
   document.body.style.zoom = "50%";
@@ -155,6 +155,6 @@ export default function SecondLastSlide(props) {
   );
 }
 
-SecondLastSlide.defaultProps = {
+AboutDiseases.defaultProps = {
   title: "About the Diseases",
 };
