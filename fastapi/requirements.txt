@@ -12,4 +12,5 @@ flask
 PyMuPDF
 unstructured
 pdf2image
-chromadb
+chromadb==0.3.29
+pysqlite3-binary
