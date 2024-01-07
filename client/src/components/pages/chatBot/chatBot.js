@@ -1,10 +1,10 @@
 import './chatbot.css'
 import { useEffect, useState, useRef } from 'react'
 import React from 'react'
-import arrow from '../../../assets/arrow.png'
-import bg from '../../../assets/bg.png'
-import mic from '../../../assets/mic.png'
-import mic_on from '../../../assets/mic_on.png'
+import arrowchat from '../../images/arrowchat.png'
+import bg from '../../images/bg.png'
+import mic from '../../images/mic.png'
+import mic_on from '../../images/mic_on.png'
 import axios from 'axios'
 import { SERVER_URL_FASTAPI } from '../../../config.js';
 import SpeechRecognition, {
@@ -200,7 +200,7 @@ function ChatBot () {
             className={`p-4 rounded-r-xl`}
             onClick={sendMessage}
           >
-            <img className='w-8' src={arrow} alt='arrow' />
+            <img className='w-8' src={arrowchat} alt='arrow' />
           </button>
         </div>
       </div>
