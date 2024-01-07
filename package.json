@@ -38,14 +38,13 @@
     "yargs-parser": "^21.1.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run chatbot\" \"npm run fastapi\" \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run fastapi\" \"npm run server\" \"npm run client\"",
     "server": "cd server && nodemon index.js",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
     "test": "cd client && npm test",
-    "fastapi": "cd prediction_backend && cd autism_model && python -m uvicorn main:app --reload",
-    "chatbot": "cd chatbot_backend && pip install -r requirements.txt && uvicorn app:app --port 8001 --reload",
-    "install-deps": "npm i && cd server && npm i && cd ../client && npm i"
+    "fastapi": "cd fastapi && python -m uvicorn main:app --reload",
+    "install-deps": "cd fastapi && pip install -r requirements.txt && cd ../ && npm i && cd server && npm i && cd ../client && npm i"
   },
   "keywords": [],
   "author": "",

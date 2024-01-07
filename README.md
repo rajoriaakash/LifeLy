@@ -1,20 +1,22 @@
-﻿# LifeLy-CODEX
+﻿# LifeLy
  #### To start with the development
  1. Fork this repositry.
- 2. Clone it using "git clone https://github.com/{your-username}/LifeLy-CODEX.git"
+ 2. Clone it using "git clone https://github.com/{your-username}/Lifely.git"
  3. Add you .env file in /server folder.
  4. .env file looks like this:
       MONGO_URL="{your mongo connection url}"
       JWT_SECRET = "{your jwt secret}"
       PORT=3001
       GMAIL_PASSWORD="{your gmail password for nodemailer}"
- 6. Open the repo in your code editor.
- 7. Run the following commands in root directory:
+      OPENAI_API_KEY=<your-openai-key>
+      SECRET_KEY=<any-32-length-string>
+ 5. Open the repo in your code editor.
+ 6. Run the following commands in root directory:
       - npm run install-deps
       - npm start
- 8. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
- 9. This will start the server deployed on (https://lifely-mern.onrender.com) and client deployed on (https://lifely-client.onrender.com).
- 10. Continue Development.
+ 7. FastAPI backend is deployed on https://lifely-p9p9.onrender.com
+ 8. This will start the server deployed on (https://lifely-mern.onrender.com) and client deployed on (https://lifely-client.onrender.com).
+ 9. Continue Development.
 
 
 #### To continue with development
@@ -28,4 +30,3 @@
 8. If merge conflicts arise, resolve them manually.
 9. After that, do git push.
 10. Done
-# Lifely

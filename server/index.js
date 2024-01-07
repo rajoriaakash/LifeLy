@@ -13,7 +13,7 @@ import recommendRoutes from "./routes/recommend.js";
 import predictRoutes from "./routes/predict.js";
 import sendRoutes from "./routes/send.js";
 import reviewRoutes from "./routes/review.js";
-
+import chatRoutes from "./routes/chat.js";
 /*CONFIGURATION*/
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,6 +35,7 @@ app.use("/recommend",recommendRoutes);
 app.use("/predict",predictRoutes);
 app.use("/send_email",sendRoutes);
 app.use("/review",reviewRoutes);
+app.use("/chat",chatRoutes);
 
 //MONGOOSE SETUP
 const PORT = process.env.PORT || 6001;

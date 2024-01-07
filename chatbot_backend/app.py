@@ -4,7 +4,7 @@ from starlette.middleware.sessions import SessionMiddleware
 import uvicorn
 import os
 from dotenv import load_dotenv
-from main import gpt3_logs, main
+from chatbot_backend.helper import gpt3_logs, main
 
 app = FastAPI()
 
@@ -28,7 +28,7 @@ app.add_middleware(
 def home():
     return "Hit from Lifely-Bot"
 
-@app.get("/api/response")
+@app.get("/bot/response")
 async def get_response(message: str, request: Request):
     chat_log = request.session.get('chat_log')
     if(chat_log == None):
