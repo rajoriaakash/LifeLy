@@ -12,3 +12,4 @@ flask
 PyMuPDF
 unstructured
 pdf2image
+chromadb
