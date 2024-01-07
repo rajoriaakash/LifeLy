@@ -9,4 +9,4 @@ openai
 scikit-learn
 joblib
 flask
-fitz
+PyMuPDF
