@@ -6,7 +6,7 @@ import bg from '../../../assets/bg.png'
 import mic from '../../../assets/mic.png'
 import mic_on from '../../../assets/mic_on.png'
 import axios from 'axios'
-import { SERVER_URL } from '../../../config.js';
+import { SERVER_URL_FASTAPI } from '../../../config.js';
 import SpeechRecognition, {
   useSpeechRecognition
 } from 'react-speech-recognition'
@@ -51,8 +51,8 @@ function ChatBot () {
     if (userInput !== '') {
       setLoading(true)
       // to be replaced by this when server is hosted
-      // axios.post(`${SERVER_URL}/chat/lifely`, { userInput: userInput}).then(
-      axios.post(`http://localhost:3001/chat/lifely`, { userInput: userInput}).then(
+      axios.post(`${SERVER_URL_FASTAPI}/chat/lifely`, { userInput: userInput}).then(
+      // axios.post(`http://localhost:3001/chat/lifely`, { userInput: userInput}).then(
         response => {
           // speechSynthesis.cancel()
           // let utterance = new SpeechSynthesisUtterance(response.data)

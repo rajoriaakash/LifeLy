@@ -3,7 +3,7 @@ import myimage from '../../../images/specialist.png';
 import './specialist.css';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import { SERVER_URL } from '../../../config.js';
+import { SERVER_URL_FASTAPI } from '../../../config.js';
 import doc from '../../../images/doctor_icon.jpg'
 export default function Specialist(props) {
   const [selectedCity, setSelectedCity] = useState('');
@@ -21,7 +21,7 @@ export default function Specialist(props) {
   };
 
   const findDoctors = () => {
-    axios.post(`${SERVER_URL}/recommend/doctors`, { state: selectedCity, disease: disease }).then(res => {
+    axios.post(`${SERVER_URL_FASTAPI}/recommend/doctors`, { state: selectedCity, disease: disease }).then(res => {
       setDoctors(res.data);
     });
   }
