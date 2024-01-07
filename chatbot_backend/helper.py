@@ -52,7 +52,7 @@ def extract_text_from_pdf(pdf_path):
         print(f"Error extracting text from PDF: {e}")
     return text
 
-pdf_directory = "datas/pdfs/"
+pdf_directory = "bot_model/datas/pdfs/"
 
 if len(sys.argv) > 1:
   query = sys.argv[1]
@@ -65,7 +65,7 @@ else:
 # Initialize the loader with the PDF files
 #   loader = DirectoryLoader("datas/prompt")
 #    loader = PyPDFLoader(pdf_directory)
-    pdf_folder_path = "datas/pdfs"
+    pdf_folder_path = "bot_model/datas/pdfs"
     print(os.listdir(pdf_folder_path))
 
     # Load multiple files
@@ -90,7 +90,7 @@ else:
 #   print(loader)
     if PERSIST:
         index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory":"persist"}).from_loaders(loaders)
-    else:
+    else:        
         index = VectorstoreIndexCreator().from_loaders(loaders)
 
 
