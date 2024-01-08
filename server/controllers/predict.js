@@ -1,5 +1,8 @@
 import axios from "axios";
 import SurveyResult from "../models/SurveyResult.js";
+import { SERVER_URL_FASTAPI } from "../../client/src/config.js";
+import { LOCAL_SERVER_URL_FASTAPI } from "../../client/src/config.js";
+
 export const get_percentage = async (req, res) => {
     try {
       const {
@@ -67,7 +70,10 @@ export const get_percentage = async (req, res) => {
       console.log(autismReqBody)
 
     //   console.log(autismReqBody);
-      const autismApiUrl = `https://lifely-p9p9.onrender.com/predict/autism`;
+    //deployed url
+      const autismApiUrl = `https://${SERVER_URL_FASTAPI}/predict/autism`;
+      //local url
+      // const autismApiUrl = `https://${LOCAL_SERVER_URL_FASTAPI}/predict/autism`;
       const autismRequest = axios.post(autismApiUrl, autismReqBody);
   
       //for adhd

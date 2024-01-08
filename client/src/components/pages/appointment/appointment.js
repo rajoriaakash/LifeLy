@@ -3,7 +3,9 @@ import './appointment.css'
 import appoint from '../../images/appointment.png'
 import { useLocation } from 'react-router-dom'
 import axios from "axios";
-import { SERVER_URL } from '../../../config';
+import { SERVER_URL } from '../../../config.js';
+import { LOCAL_SERVER_URL } from "../../../config.js";
+
 export default function Appointment(props) {
     const location = useLocation()
     const data = location.state?.data

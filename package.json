@@ -43,8 +43,8 @@
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
     "test": "cd client && npm test",
-    "fastapi": "cd fastapi && uvicorn main:app --reload",
-    "install-deps": "cd fastapi && pip install -r requirements.txt && cd ../ && npm i && cd server && npm i && cd ../client && npm i"
+    "fastapi": "cd fastapi && python -m uvicorn main:app --reload",
+    "install-deps": "cd fastapi && python -m pip install -r requirements.txt && cd ../ && npm i && cd server && npm i && cd ../client && npm i"
   },
   "keywords": [],
   "author": "",
