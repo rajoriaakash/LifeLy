@@ -13,3 +13,4 @@ PyMuPDF
 unstructured
 pdf2image
 chromadb==0.3.29
+tiktoken
