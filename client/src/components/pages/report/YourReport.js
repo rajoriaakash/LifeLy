@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { SERVER_URL } from '../../../config.js';
+import { LOCAL_SERVER_URL } from "../../../config.js";
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

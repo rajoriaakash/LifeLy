@@ -3,7 +3,9 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import SingleReview from './SingleReview';
 import './review.css';
-import { SERVER_URL } from '../../../config';
+import { SERVER_URL } from '../../../config.js';
+import { LOCAL_SERVER_URL } from "../../../config.js";
+
 
 const Review = () => {
   const [reviews, setReviews] = useState([]);

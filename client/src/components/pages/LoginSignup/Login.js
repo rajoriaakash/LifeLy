@@ -6,6 +6,8 @@ import './login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import loginimage from '../../images/login-image.png'
 import { SERVER_URL } from '../../../config.js';
+import { LOCAL_SERVER_URL } from "../../../config.js";
+
 
 const Login = ({ loginUser }) => {
   const navigate = useNavigate()
