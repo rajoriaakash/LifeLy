@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "devDependencies": {
     "concurrently": "^8.0.1"
   },
@@ -32,6 +33,7 @@
     "transformers": "^3.1.0",
     "tree-kill": "^1.2.2",
     "tslib": "^2.5.0",
+    "webpack": "^5.89.0",
     "wrap-ansi": "^7.0.0",
     "y18n": "^5.0.8",
     "yargs": "^17.7.1",
