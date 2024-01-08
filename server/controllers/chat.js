@@ -1,7 +1,6 @@
 import axios from "axios";
-import urls from '../../client/src/config.js'
-const { SERVER_URL_FASTAPI, LOCAL_SERVER_URL_FASTAPI } = urls
-
+import { SERVER_URL_FASTAPI } from "../config.js";
+import { LOCAL_SERVER_URL_FASTAPI } from "../config.js";
 export const get_response = async (req, res) => {
     try {
         const {userInput} = req.body;

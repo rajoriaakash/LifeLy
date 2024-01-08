@@ -1,8 +1,7 @@
 import axios from "axios";
 import SurveyResult from "../models/SurveyResult.js";
-import urls from '../../client/src/config.js'
-const { SERVER_URL_FASTAPI, LOCAL_SERVER_URL_FASTAPI } = urls
-
+import { SERVER_URL_FASTAPI } from "../config.js";
+import { LOCAL_SERVER_URL_FASTAPI } from "../config.js";
 
 export const get_percentage = async (req, res) => {
     try {
