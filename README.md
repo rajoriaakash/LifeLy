@@ -1,4 +1,3 @@
-﻿# LifeLy
 ## Overview
 
 This project is a comprehensive child mental health platform utilizing machine learning and AI to predict, prevent, and manage diseases. It introduces 30 targeted questions to predict probable disorders and offers tailored recommendations for specialists and exercises. Additionally, it provides a range of solutions for parents, spanning from easy-to-do home exercises to specialized doctor recommendations. 
@@ -107,6 +106,21 @@ To begin working on this project, follow these steps:
     ```
 
 9. **All Done:** Your changes are now updated in your repository. Continue your development process or contribute by creating a pull request if you've made changes to improve the main repository.
+
+## Screenshots
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/a1f03c08-c2d4-450c-acea-1be05e6567ee" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/fbbde572-9439-4d07-9b66-2ee55cbd5cd6" width="480"/>
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/3548a53b-479d-4741-8fe1-e952f6158383" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/cd9f0bf5-51eb-4b8f-9723-913c23a96f36" width="480"/>
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5eb9e8ab-0242-40e9-9f33-25ca091187a0" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5cbad809-534b-4dfd-be07-8c50570572db" width="480"/>
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/b9c11a3c-5572-49bf-80c1-5a5478c26c11" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/7c35aff2-852a-4451-9ce0-40a5f06414cc" width="480"/>
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/0f4bb151-8e67-4c00-aa55-b8e483b28d80" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/23f61bc1-064f-45f9-b301-da7bc2141a91" width="480"/>
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/87d5c0fc-a7eb-4a84-9ec0-3f2923bd622f" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/70e0bda2-c3ef-473d-94d0-594e160b6db9" width="480"/>
+
 
 ## Deployed Versions
 
