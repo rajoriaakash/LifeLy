@@ -1,6 +1,6 @@
 import axios from "axios";
 import { SERVER_URL_FASTAPI } from "../../client/src/config.js";
-import { LOCAL_SERVER_URL_FASTAPI } from "../../client/src/config.js";
+// import { LOCAL_SERVER_URL_FASTAPI } from "../../client/src/config.js";
 export const recommend_doctors = async (req, res) => {
     try {
       const { state, disease } = req.body;
