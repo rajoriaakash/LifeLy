@@ -1,7 +1,8 @@
 import axios from "axios";
 import SurveyResult from "../models/SurveyResult.js";
-import { SERVER_URL_FASTAPI } from "../../client/src/config.js";
-import { LOCAL_SERVER_URL_FASTAPI } from "../../client/src/config.js";
+import urls from '../../client/src/config.js'
+const { SERVER_URL_FASTAPI, LOCAL_SERVER_URL_FASTAPI } = urls
+
 
 export const get_percentage = async (req, res) => {
     try {
@@ -71,7 +72,7 @@ export const get_percentage = async (req, res) => {
 
     //   console.log(autismReqBody);
     //deployed url
-      const autismApiUrl = `https://${SERVER_URL_FASTAPI}/predict/autism`;
+      const autismApiUrl = `${SERVER_URL_FASTAPI}/predict/autism`;
       //local url
       // const autismApiUrl = `https://${LOCAL_SERVER_URL_FASTAPI}/predict/autism`;
       const autismRequest = axios.post(autismApiUrl, autismReqBody);
