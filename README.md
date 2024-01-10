@@ -9,18 +9,33 @@ The purpose of this platform is to assist parents in detecting potential mental 
 
 ## Features and Functionalities
 
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/a1f03c08-c2d4-450c-acea-1be05e6567ee" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/fbbde572-9439-4d07-9b66-2ee55cbd5cd6" width="400"/>
+
 - **Raising Awareness:** The platform spreads awareness about the importance of early mental health diagnosis through statistics and data, emphasizing the significance of early intervention.
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5cbad809-534b-4dfd-be07-8c50570572db" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/b9c11a3c-5572-49bf-80c1-5a5478c26c11" width="400"/>
 
 - **Probabilistic Detection Model:** Utilizes a model to assess the likelihood of a child having a particular mental health condition by employing a general questionnaire about the child's daily activities and behavior.
 
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5eb9e8ab-0242-40e9-9f33-25ca091187a0" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 - **AI-Powered Chatbot:** Integrated with an AI-powered chatbot that engages in human-like conversations. This bot provides information, helps parents comprehend mental health concerns, recommends steps and precautions, and acts as a virtual therapist. It's trained on recommended books and therapist guidance.
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/0f4bb151-8e67-4c00-aa55-b8e483b28d80" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/23f61bc1-064f-45f9-b301-da7bc2141a91" width="400"/>
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/87d5c0fc-a7eb-4a84-9ec0-3f2923bd622f" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/70e0bda2-c3ef-473d-94d0-594e160b6db9" width="400"/>
 
 - **Comprehensive Solutions:** Offers a one-stop solution for parents by providing access to specialized doctors in the locality with exclusive discounts for potential diseases identified, eliminating the need for extensive searches. Also lists integrated schools to ensure inclusivity for children with mental health concerns.
 
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/4766a0ea-42f6-4b83-ad0b-4e3ab459d96b" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 - **Home Exercise Programs:** Provides easy-to-follow home exercise routines, including meditation, specific yoga practices, and more, supplemented with YouTube tutorials aimed at aiding various mental health issues.
+
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/63d57314-bed8-414e-88e0-e9799db46412" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 - **Newsletter Subscription:** Allows users to subscribe to a newsletter for ongoing updates, tips, and information related to child mental health.
 
+## Workflow
+![Copy of InnovateNSUT](https://github.com/rajoriaakash/Lifely/assets/59030114/a9c19482-b3ab-4430-a0c0-b18369a32f9e)
 
 ## Getting Started with Development
 
@@ -106,20 +121,6 @@ To begin working on this project, follow these steps:
     ```
 
 9. **All Done:** Your changes are now updated in your repository. Continue your development process or contribute by creating a pull request if you've made changes to improve the main repository.
-
-## Screenshots
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/a1f03c08-c2d4-450c-acea-1be05e6567ee" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/fbbde572-9439-4d07-9b66-2ee55cbd5cd6" width="480"/>
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/3548a53b-479d-4741-8fe1-e952f6158383" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/cd9f0bf5-51eb-4b8f-9723-913c23a96f36" width="480"/>
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5eb9e8ab-0242-40e9-9f33-25ca091187a0" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/5cbad809-534b-4dfd-be07-8c50570572db" width="480"/>
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/b9c11a3c-5572-49bf-80c1-5a5478c26c11" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/7c35aff2-852a-4451-9ce0-40a5f06414cc" width="480"/>
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/0f4bb151-8e67-4c00-aa55-b8e483b28d80" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/23f61bc1-064f-45f9-b301-da7bc2141a91" width="480"/>
-
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/87d5c0fc-a7eb-4a84-9ec0-3f2923bd622f" width="480"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/70e0bda2-c3ef-473d-94d0-594e160b6db9" width="480"/>
 
 
 ## Deployed Versions
