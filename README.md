@@ -35,7 +35,7 @@ The purpose of this platform is to assist parents in detecting potential mental 
 - **Newsletter Subscription:** Allows users to subscribe to a newsletter for ongoing updates, tips, and information related to child mental health.
 
 ## Workflow
-![Copy of InnovateNSUT](https://github.com/rajoriaakash/Lifely/assets/59030114/a9c19482-b3ab-4430-a0c0-b18369a32f9e)
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/a9c19482-b3ab-4430-a0c0-b18369a32f9e" width="500"/>
 
 ## Getting Started with Development
 
