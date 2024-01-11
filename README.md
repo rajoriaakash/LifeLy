@@ -22,7 +22,7 @@ The purpose of this platform is to assist parents in detecting potential mental 
 - **AI-Powered Chatbot:** Integrated with an AI-powered chatbot that engages in human-like conversations. This bot provides information, helps parents comprehend mental health concerns, recommends steps and precautions, and acts as a virtual therapist. It's trained on recommended books and therapist guidance.
 
 <img src="https://github.com/rajoriaakash/Lifely/assets/59030114/0f4bb151-8e67-4c00-aa55-b8e483b28d80" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/23f61bc1-064f-45f9-b301-da7bc2141a91" width="400"/>
-<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/87d5c0fc-a7eb-4a84-9ec0-3f2923bd622f" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/70e0bda2-c3ef-473d-94d0-594e160b6db9" width="400"/>
+<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/ebae5e42-c6f3-4b5b-805a-3dd2206929f4" width="400"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/rajoriaakash/Lifely/assets/59030114/70e0bda2-c3ef-473d-94d0-594e160b6db9" width="400"/>
 
 - **Comprehensive Solutions:** Offers a one-stop solution for parents by providing access to specialized doctors in the locality with exclusive discounts for potential diseases identified, eliminating the need for extensive searches. Also lists integrated schools to ensure inclusivity for children with mental health concerns.
 
