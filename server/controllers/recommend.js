@@ -17,3 +17,15 @@ export const recommend_doctors = async (req, res) => {
       res.status(500).json({ message:  err.message});
     }
   };
+
+  export const recommend_schools = async (req, res) => {
+    try {
+      const apiUrl = "http://www.currentdiary.com/school/school-api/";
+      const response = await axios.get(apiUrl);
+  
+      res.status(200).json(response.data);
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ message: err.message });
+    }
+  };
