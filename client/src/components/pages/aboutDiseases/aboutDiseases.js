@@ -1,7 +1,4 @@
 import React from "react";
-// import { Table } from "react-bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 import "./aboutDisease.css";
 
 import about1 from "../../images/about_1.png";
