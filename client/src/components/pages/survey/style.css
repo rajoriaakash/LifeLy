@@ -53,21 +53,16 @@ form {
   margin: 1em 2em;
   text-align: left;
 }
-/* .bttn {
-  display: inline-block;
-  margin-bottom: 1em;
-  text-align: center;
-  background: rgba(240, 169, 169, 0.5);
-  border-radius: 50px;
-} */
 
 input[type="radio"] {
   border: 0px;
   position: absolute;
-  /* margin-top: 1em; */
   width: 2em;
   height: 2em;
   background-color: blue;
+  cursor: pointer;
+    pointer-events: inherit;
+
 }
 label {
   padding: auto;
@@ -88,6 +83,8 @@ label {
   /* margin-top: 0.2em; */
   margin-bottom: 0em;
   margin-left: 1em;
+  pointer-events: inherit;
+  /* cursor: pointer; */
 }
 .bttn {
   background: #a6ea7d80;
@@ -99,7 +96,7 @@ label {
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
-  line-height: 44px;
+  /* line-height: 44px; */
   /* padding-bottom: 1em; */
   /* align-items: center; */
   text-align: center;

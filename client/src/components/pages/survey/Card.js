@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import resultarray from './resultarray'
-import { set } from 'lodash'
+import './style.css'
+
 const onClick = e => {
   const value1 = e.currentTarget.getAttribute('data-value1')
   const value2 = e.currentTarget.getAttribute('data-value2')
@@ -13,7 +14,7 @@ const onClick = e => {
 const RadioInput = ({
   label,
   value,
-  checked,
+  checkedValue,
   setter,
   questionno,
   questionop,
@@ -23,17 +24,16 @@ const RadioInput = ({
     <div>
       <div className='div1'>
         <p className=' btn btn-primary bttn' style={{ background: color_code }}>
-          {label}
+          {label}      
+          
         </p>
       </div>
       <div className='div2'>
         <input
+          aria-disabled='true'
           type='radio'
-          checked={checked == value}
-          onChange={() => {
-            console.log(setter)
-            setter(value)
-          }}
+          checked={checkedValue == value}
+          onChange={() => setter(value)}
           onClick={onClick}
           data-value1={questionno}
           data-value2={questionop}
@@ -54,7 +54,7 @@ export default function Card (props) {
         <RadioInput
           label='Definitely Agree'
           value='option1'
-          checked={props.qno}
+          checkedValue={props.qno}
           setter={props.qnosetter}
           questionno={props.id}
           questionop='1'
@@ -63,7 +63,7 @@ export default function Card (props) {
         <RadioInput
           label='Slightly Agree'
           value='option2'
-          checked={props.qno}
+          checkedValue={props.qno}
           setter={props.qnosetter}
           questionno={props.id}
           questionop='2'
@@ -72,7 +72,7 @@ export default function Card (props) {
         <RadioInput
           label='Slightly Disagree'
           value='option3'
-          checked={props.qno}
+          checkedValue={props.qno}
           setter={props.qnosetter}
           questionno={props.id}
           questionop='3'
@@ -81,7 +81,7 @@ export default function Card (props) {
         <RadioInput
           label='Definitely Disagree'
           value='option4'
-          checked={props.qno}
+          checkedValue={props.qno}
           setter={props.qnosetter}
           questionno={props.id}
           questionop='4'
