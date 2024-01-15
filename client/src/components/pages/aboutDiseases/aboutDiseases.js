@@ -1,7 +1,4 @@
 import React from "react";
-// import { Table } from "react-bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 import "./aboutDisease.css";
 
 import about1 from "../../images/about_1.png";
@@ -15,7 +12,7 @@ import { useNavigate } from 'react-router-dom'
 export default function AboutDiseases(props) {
   const navigate = useNavigate()
 
-  document.body.style.zoom = "50%";
+  // document.body.style.zoom = "50%";
   return (
     //col-md-6
     <>
