@@ -28,6 +28,7 @@ export default function Appointment(props) {
             // console.log("hello");
             console.log(res.data);
           if (user.email != null) {
+            alert('Appointment booked')
           } else {
             alert("Error");
           }

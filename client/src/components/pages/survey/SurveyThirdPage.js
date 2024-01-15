@@ -15,7 +15,7 @@ import resultarray from './resultarray.js'
 export default function SurveyThirdPage (props) {
   const navigate = useNavigate()
 
-  document.body.style.zoom = '70%'
+  // document.body.style.zoom = '70%'
   const location = useLocation()
   const data = location.state?.data
   // results = data

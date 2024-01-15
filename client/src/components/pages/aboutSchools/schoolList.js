@@ -8,7 +8,7 @@ import Header from "../Header/Header.js";
 import Footer from "../Footer/Footer.js";
 import Image from "./Image.js";
 export default function LastSlide(props) {
-  document.body.style.zoom = "50%";
+  // document.body.style.zoom = "50%";
   return (
     <>
       <Header></Header>

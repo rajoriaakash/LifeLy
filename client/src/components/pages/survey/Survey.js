@@ -49,7 +49,7 @@ const RadioInput = ({
   )
 }
 export default function Survey (props) {
-  document.body.style.zoom = '75%'
+  // document.body.style.zoom = '75%'
   const [question0, setquestion0] = React.useState()
   const handleSubmit = e => {}
 

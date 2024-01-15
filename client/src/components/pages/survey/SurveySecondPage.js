@@ -12,7 +12,7 @@ import Card from './Card.js'
 export default function SurveySecondPage (props) {
   const location = useLocation()
   const data = location.state?.data
-  document.body.style.zoom = '70%'
+  // document.body.style.zoom = '70%'
   const handleSubmit = e => {}
 
   return (

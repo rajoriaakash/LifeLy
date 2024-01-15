@@ -12,7 +12,7 @@ import { useNavigate } from 'react-router-dom'
 export default function AboutDiseases(props) {
   const navigate = useNavigate()
 
-  document.body.style.zoom = "50%";
+  // document.body.style.zoom = "50%";
   return (
     //col-md-6
     <>

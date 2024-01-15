@@ -40,9 +40,9 @@
 .w2 {
   font-family: "Alegreya";
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 1.4em;
-  line-height: 49px;
+  /* line-height: 49px; */
   text-align: center;
 
   color: #000000;
@@ -76,8 +76,8 @@ label {
   display: inline-block;
   margin: auto;
   margin-top: 0em;
-  width: 30em;
-  padding: 0.8em;
+  width: 20em;
+  /* padding: 0.8em; */
 }
 
 .div2 {
@@ -98,7 +98,7 @@ label {
   font-family: "Alegreya";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1em;
   line-height: 44px;
   /* padding-bottom: 1em; */
   /* align-items: center; */
@@ -111,7 +111,7 @@ p {
   font-family: "Alegreya";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   line-height: 1.2em;
   /* identical to box height */
 
