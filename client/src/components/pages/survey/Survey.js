@@ -20,7 +20,7 @@ const onClick = e => {
 const RadioInput = ({
   label,
   value,
-  checked,
+  checkedValue,
   setter,
   questionno,
   questionop,
@@ -36,7 +36,11 @@ const RadioInput = ({
       <div className='div2'>
         <input
           type='radio'
+<<<<<<< HEAD
           checked={checked == value}
+=======
+          checked={checkedValue === value}
+>>>>>>> d8017477b8fc8b3ef8ab4144a169480c306b856e
           onChange={() => {
             setter(value)
           }}
@@ -51,6 +55,10 @@ const RadioInput = ({
 export default function Survey (props) {
   // document.body.style.zoom = '75%'
   const [question0, setquestion0] = React.useState()
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8017477b8fc8b3ef8ab4144a169480c306b856e
   const handleSubmit = e => {}
 
   return (
@@ -73,7 +81,11 @@ export default function Survey (props) {
             <RadioInput
               label='Female'
               value='option1'
+<<<<<<< HEAD
               checked={question0}
+=======
+              checkedValue={question0}
+>>>>>>> d8017477b8fc8b3ef8ab4144a169480c306b856e
               setter={setquestion0}
               questionno='0'
               questionop='1'
@@ -82,7 +94,11 @@ export default function Survey (props) {
             <RadioInput
               label='Male'
               value='option2'
+<<<<<<< HEAD
               checked={question0}
+=======
+              checkedValue={question0}
+>>>>>>> d8017477b8fc8b3ef8ab4144a169480c306b856e
               setter={setquestion0}
               questionno='0'
               questionop='2'
