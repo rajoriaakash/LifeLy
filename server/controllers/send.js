@@ -52,7 +52,7 @@ export const sendAppointment = async (req,res) => {
     
     If there are any changes to the appointment or if you have any questions, please let us know. We look forward to meeting with you and your child.
     Thank you,
-    ${name}
+    Team Lifely
     `;
 
       // Create a nodemailer transport object
