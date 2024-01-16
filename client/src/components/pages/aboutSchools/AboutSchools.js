@@ -1,44 +1,45 @@
 import React, { useEffect, useState } from "react";
-import Image from './schoolCard.js'
+import Image from './schoolCard.js';
 import "./style.css";
 import Header from "../Header/Header.js";
 import Footer from "../Footer/Footer.js";
+import { SERVER_URL } from "../../../config.js";
+import axios from 'axios';
+
 function AboutSchools() {
   const [users, setUsers] = useState([]);
 
   // Function to collect data
   const getApiData = async () => {
-    const response = await fetch(
-      "http://www.currentdiary.com/school/school-api/"
-    ).then((response) => response.json());
-
-    setUsers(response);
+    try {
+      const response = await axios.get(`${SERVER_URL}/recommend/schools`);
+      setUsers(response.data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   };
 
   useEffect(() => {
     getApiData();
   }, []);
-  // console.log(users);
-  let arr = [];
-  arr = users;
 
   return (
     <>
       <Header></Header>
-      <div className="container extra">
+      <div className="container">
         <h1 className="heading">Integrated Schools</h1>
-        <h2 style={{ textAlign: "center" }}>
-          Where your child will not feel lesser than any other child
-        </h2>
+        <h2>Where your child will not feel lesser than any other child</h2>
 
-        {arr.map((arr, index) => {
-          let temp = fetch("https://justcors.com/tl_04fefab/" + arr.url).then(
-            (response) => response.json()
-          );
-          console.log(index);
-          console.log(temp);
-          return <Image url={arr.image} title={arr.location}></Image>;
-        })}
+        <div className="school-grid">
+          {users.map((user, index) => (
+            <div key={index} className="school-item">
+              <div className="image-container">
+                <Image url={user.image} />
+              </div>
+              <div className="title">{user.location}</div>
+            </div>
+          ))}
+        </div>
       </div>
       <Footer></Footer>
     </>
@@ -46,18 +47,3 @@ function AboutSchools() {
 }
 
 export default AboutSchools;
-{
-  /* <Image
-  url={school1}
-  title={props.schools[0].name + "," + props.schools[0].address}
-></Image>; */
-}
-
-{
-  /* {users &&
-        users.map((user) => (
-          <div className="item-container">
-            Id:{user.id} <div className="title">Title:{user.title}</div>
-          </div>
-        ))} */
-}

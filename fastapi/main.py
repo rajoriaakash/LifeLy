@@ -36,12 +36,12 @@ def read_root():
 #get autism percentage
 @app.post("/predict/autism")
 async def predict_autism(data : SurveyInput):
-    return get_percent(data=data)
+    return await get_percent(data=data)
 
 #for doctors list
 @app.get("/recommend/doctors")
 async def get_doctors(state: Optional[str] = None, disease: Optional[str] = None):
-    return get_json_from_csv(state=state,disease=disease)
+    return await get_json_from_csv(state=state,disease=disease)
 
 #for chatbot
 @app.get("/bot/response")

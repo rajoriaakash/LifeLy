@@ -17,7 +17,7 @@ const Happyplace = () => {
       id: 1,
       name: 'Vacation',
       image: vacation,
-      url: 'https://davidnbrace.com/blog/better-travels/how-traveling-improves-kids-mental-health/'
+      url: 'https://www.toppr.com/guides/essays/essay-on-vacation/'
     },
     {
       id: 2,
